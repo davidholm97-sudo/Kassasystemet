@@ -1,900 +1,301 @@
-﻿100;Bananer Original;135,90;kg
-101;Äpplen Original;24,90;kg
-102;Päron Original;69,90;kg
-103;Apelsiner Original;60,90;kg
-104;Tomater Original;152,90;kg
-105;Potatis Original;141,90;kg
-106;Morötter Original;180,90;kg
-107;Gul lök Original;35,90;kg
-108;Paprika Original;95,90;kg
-109;Broccoli Original;25,90;kg
-110;Avokado Original;33,90;st
-111;Gurka Original;69,90;st
-112;Citron Original;10,90;st
-113;Mango Original;31,90;st
-114;Kiwi Original;86,90;st
-115;Mjölk Original;73,90;st
-116;Havredryck Original;34,90;st
-117;Smör Original;79,90;st
-118;Vispgrädde Original;106,90;st
-119;Grekisk yoghurt Original;7,90;st
-120;Crème fraiche Original;106,90;st
-121;Ägg Original;92,90;st
-122;Ost Original;48,90;st
-123;Köttfärs Original;47,90;kg
-124;Nötfärs Original;192,90;kg
-125;Kycklingfilé Original;80,90;kg
-126;Laxfilé Original;36,90;kg
-127;Fläskytterfilé Original;37,90;kg
-128;Torskfilé Original;172,90;kg
-129;Korv Original;81,90;st
-130;Bacon Original;106,90;st
-131;Spaghetti Original;96,90;st
-132;Jasminris Original;72,90;st
-133;Vetemjöl Original;126,90;st
-134;Strösocker Original;53,90;st
-135;Krossade tomater Original;74,90;st
-136;Kidneybönor Original;108,90;st
-137;Kaffe Original;83,90;st
-138;Te Original;112,90;st
-139;Knäckebröd Original;77,90;st
-140;Havregryn Original;93,90;st
-141;Coca-Cola Original;12,90;st
-142;Mineralvatten Original;34,90;st
-143;Apelsinjuice Original;42,90;st
-144;Äppeljuice Original;16,90;st
-145;Läsk Original;35,90;st
-146;Energidryck Original;19,90;st
-147;Fryst pizza Original;41,90;st
-148;Pommes frites Original;85,90;st
-149;Frysta blåbär Original;51,90;st
-150;Glass Original;52,90;st
-151;Frysta ärtor Original;32,90;st
-152;Fiskpinnar Original;39,90;st
-153;Chips Original;122,90;st
-154;Mjölkchoklad Original;86,90;st
-155;Saltade jordnötter Original;81,90;st
-156;Popcorn Original;28,90;st
-157;Kakor Original;96,90;st
-158;Lösgodis Original;49,90;kg
-159;Diskmedel Original;53,90;st
-160;Toalettpapper Original;128,90;st
-161;Hushållspapper Original;85,90;st
-162;Tvättmedel Original;75,90;st
-163;Soppåsar Original;91,90;st
-164;Bärkasse Original;110,90;st
-165;Tandkräm Original;102,90;st
-166;Schampo Original;35,90;st
-167;Balsam Original;10,90;st
-168;Duschgel Original;45,90;st
-169;Handtvål Original;39,90;st
-170;Deodorant Original;32,90;st
-171;Bananer Eko;189,90;kg
-172;Äpplen Eko;177,90;kg
-173;Päron Eko;76,90;kg
-174;Apelsiner Eko;137,90;kg
-175;Tomater Eko;91,90;kg
-176;Potatis Eko;184,90;kg
-177;Morötter Eko;102,90;kg
-178;Gul lök Eko;67,90;kg
-179;Paprika Eko;64,90;kg
-180;Broccoli Eko;120,90;kg
-181;Avokado Eko;39,90;st
-182;Gurka Eko;78,90;st
-183;Citron Eko;117,90;st
-184;Mango Eko;56,90;st
-185;Kiwi Eko;33,90;st
-186;Mjölk Eko;129,90;st
-187;Havredryck Eko;69,90;st
-188;Smör Eko;18,90;st
-189;Vispgrädde Eko;12,90;st
-190;Grekisk yoghurt Eko;20,90;st
-191;Crème fraiche Eko;84,90;st
-192;Ägg Eko;104,90;st
-193;Ost Eko;58,90;st
-194;Köttfärs Eko;31,90;kg
-195;Nötfärs Eko;88,90;kg
-196;Kycklingfilé Eko;199,90;kg
-197;Laxfilé Eko;115,90;kg
-198;Fläskytterfilé Eko;194,90;kg
-199;Torskfilé Eko;174,90;kg
-200;Korv Eko;8,90;st
-201;Bacon Eko;95,90;st
-202;Spaghetti Eko;90,90;st
-203;Jasminris Eko;72,90;st
-204;Vetemjöl Eko;39,90;st
-205;Strösocker Eko;85,90;st
-206;Krossade tomater Eko;20,90;st
-207;Kidneybönor Eko;60,90;st
-208;Kaffe Eko;62,90;st
-209;Te Eko;124,90;st
-210;Knäckebröd Eko;114,90;st
-211;Havregryn Eko;39,90;st
-212;Coca-Cola Eko;68,90;st
-213;Mineralvatten Eko;28,90;st
-214;Apelsinjuice Eko;119,90;st
-215;Äppeljuice Eko;114,90;st
-216;Läsk Eko;43,90;st
-217;Energidryck Eko;85,90;st
-218;Fryst pizza Eko;81,90;st
-219;Pommes frites Eko;25,90;st
-220;Frysta blåbär Eko;100,90;st
-221;Glass Eko;73,90;st
-222;Frysta ärtor Eko;102,90;st
-223;Fiskpinnar Eko;72,90;st
-224;Chips Eko;7,90;st
-225;Mjölkchoklad Eko;46,90;st
-226;Saltade jordnötter Eko;9,90;st
-227;Popcorn Eko;121,90;st
-228;Kakor Eko;115,90;st
-229;Lösgodis Eko;169,90;kg
-230;Diskmedel Eko;44,90;st
-231;Toalettpapper Eko;14,90;st
-232;Hushållspapper Eko;114,90;st
-233;Tvättmedel Eko;123,90;st
-234;Soppåsar Eko;17,90;st
-235;Bärkasse Eko;66,90;st
-236;Tandkräm Eko;15,90;st
-237;Schampo Eko;100,90;st
-238;Balsam Eko;101,90;st
-239;Duschgel Eko;22,90;st
-240;Handtvål Eko;65,90;st
-241;Deodorant Eko;74,90;st
-242;Bananer Premium;67,90;kg
-243;Äpplen Premium;176,90;kg
-244;Päron Premium;96,90;kg
-245;Apelsiner Premium;58,90;kg
-246;Tomater Premium;117,90;kg
-247;Potatis Premium;151,90;kg
-248;Morötter Premium;56,90;kg
-249;Gul lök Premium;76,90;kg
-250;Paprika Premium;199,90;kg
-251;Broccoli Premium;136,90;kg
-252;Avokado Premium;60,90;st
-253;Gurka Premium;70,90;st
-254;Citron Premium;21,90;st
-255;Mango Premium;34,90;st
-256;Kiwi Premium;48,90;st
-257;Mjölk Premium;79,90;st
-258;Havredryck Premium;35,90;st
-259;Smör Premium;34,90;st
-260;Vispgrädde Premium;15,90;st
-261;Grekisk yoghurt Premium;84,90;st
-262;Crème fraiche Premium;35,90;st
-263;Ägg Premium;118,90;st
-264;Ost Premium;112,90;st
-265;Köttfärs Premium;32,90;kg
-266;Nötfärs Premium;62,90;kg
-267;Kycklingfilé Premium;140,90;kg
-268;Laxfilé Premium;58,90;kg
-269;Fläskytterfilé Premium;43,90;kg
-270;Torskfilé Premium;188,90;kg
-271;Korv Premium;77,90;st
-272;Bacon Premium;65,90;st
-273;Spaghetti Premium;103,90;st
-274;Jasminris Premium;106,90;st
-275;Vetemjöl Premium;30,90;st
-276;Strösocker Premium;18,90;st
-277;Krossade tomater Premium;59,90;st
-278;Kidneybönor Premium;59,90;st
-279;Kaffe Premium;64,90;st
-280;Te Premium;96,90;st
-281;Knäckebröd Premium;89,90;st
-282;Havregryn Premium;128,90;st
-283;Coca-Cola Premium;19,90;st
-284;Mineralvatten Premium;56,90;st
-285;Apelsinjuice Premium;48,90;st
-286;Äppeljuice Premium;112,90;st
-287;Läsk Premium;37,90;st
-288;Energidryck Premium;30,90;st
-289;Fryst pizza Premium;62,90;st
-290;Pommes frites Premium;58,90;st
-291;Frysta blåbär Premium;41,90;st
-292;Glass Premium;37,90;st
-293;Frysta ärtor Premium;120,90;st
-294;Fiskpinnar Premium;61,90;st
-295;Chips Premium;112,90;st
-296;Mjölkchoklad Premium;74,90;st
-297;Saltade jordnötter Premium;13,90;st
-298;Popcorn Premium;129,90;st
-299;Kakor Premium;109,90;st
-300;Lösgodis Premium;194,90;kg
-301;Diskmedel Premium;120,90;st
-302;Toalettpapper Premium;111,90;st
-303;Hushållspapper Premium;27,90;st
-304;Tvättmedel Premium;66,90;st
-305;Soppåsar Premium;33,90;st
-306;Bärkasse Premium;56,90;st
-307;Tandkräm Premium;14,90;st
-308;Schampo Premium;53,90;st
-309;Balsam Premium;128,90;st
-310;Duschgel Premium;39,90;st
-311;Handtvål Premium;103,90;st
-312;Deodorant Premium;62,90;st
-313;Bananer Budget;96,90;kg
-314;Äpplen Budget;192,90;kg
-315;Päron Budget;199,90;kg
-316;Apelsiner Budget;119,90;kg
-317;Tomater Budget;149,90;kg
-318;Potatis Budget;47,90;kg
-319;Morötter Budget;73,90;kg
-320;Gul lök Budget;194,90;kg
-321;Paprika Budget;124,90;kg
-322;Broccoli Budget;117,90;kg
-323;Avokado Budget;98,90;st
-324;Gurka Budget;13,90;st
-325;Citron Budget;78,90;st
-326;Mango Budget;68,90;st
-327;Kiwi Budget;111,90;st
-328;Mjölk Budget;26,90;st
-329;Havredryck Budget;125,90;st
-330;Smör Budget;16,90;st
-331;Vispgrädde Budget;29,90;st
-332;Grekisk yoghurt Budget;80,90;st
-333;Crème fraiche Budget;90,90;st
-334;Ägg Budget;35,90;st
-335;Ost Budget;21,90;st
-336;Köttfärs Budget;180,90;kg
-337;Nötfärs Budget;64,90;kg
-338;Kycklingfilé Budget;126,90;kg
-339;Laxfilé Budget;131,90;kg
-340;Fläskytterfilé Budget;95,90;kg
-341;Torskfilé Budget;125,90;kg
-342;Korv Budget;71,90;st
-343;Bacon Budget;121,90;st
-344;Spaghetti Budget;32,90;st
-345;Jasminris Budget;95,90;st
-346;Vetemjöl Budget;36,90;st
-347;Strösocker Budget;55,90;st
-348;Krossade tomater Budget;89,90;st
-349;Kidneybönor Budget;43,90;st
-350;Kaffe Budget;45,90;st
-351;Te Budget;99,90;st
-352;Knäckebröd Budget;15,90;st
-353;Havregryn Budget;63,90;st
-354;Coca-Cola Budget;129,90;st
-355;Mineralvatten Budget;129,90;st
-356;Apelsinjuice Budget;15,90;st
-357;Äppeljuice Budget;33,90;st
-358;Läsk Budget;39,90;st
-359;Energidryck Budget;121,90;st
-360;Fryst pizza Budget;115,90;st
-361;Pommes frites Budget;115,90;st
-362;Frysta blåbär Budget;52,90;st
-363;Glass Budget;26,90;st
-364;Frysta ärtor Budget;109,90;st
-365;Fiskpinnar Budget;93,90;st
-366;Chips Budget;82,90;st
-367;Mjölkchoklad Budget;128,90;st
-368;Saltade jordnötter Budget;87,90;st
-369;Popcorn Budget;7,90;st
-370;Kakor Budget;107,90;st
-371;Lösgodis Budget;73,90;kg
-372;Diskmedel Budget;88,90;st
-373;Toalettpapper Budget;122,90;st
-374;Hushållspapper Budget;23,90;st
-375;Tvättmedel Budget;21,90;st
-376;Soppåsar Budget;20,90;st
-377;Bärkasse Budget;74,90;st
-378;Tandkräm Budget;40,90;st
-379;Schampo Budget;81,90;st
-380;Balsam Budget;95,90;st
-381;Duschgel Budget;31,90;st
-382;Handtvål Budget;84,90;st
-383;Deodorant Budget;39,90;st
-384;Bananer Familj;107,90;kg
-385;Äpplen Familj;182,90;kg
-386;Päron Familj;172,90;kg
-387;Apelsiner Familj;36,90;kg
-388;Tomater Familj;96,90;kg
-389;Potatis Familj;69,90;kg
-390;Morötter Familj;20,90;kg
-391;Gul lök Familj;158,90;kg
-392;Paprika Familj;134,90;kg
-393;Broccoli Familj;67,90;kg
-394;Avokado Familj;98,90;st
-395;Gurka Familj;74,90;st
-396;Citron Familj;59,90;st
-397;Mango Familj;8,90;st
-398;Kiwi Familj;16,90;st
-399;Mjölk Familj;115,90;st
-400;Havredryck Familj;118,90;st
-401;Smör Familj;74,90;st
-402;Vispgrädde Familj;109,90;st
-403;Grekisk yoghurt Familj;78,90;st
-404;Crème fraiche Familj;25,90;st
-405;Ägg Familj;22,90;st
-406;Ost Familj;44,90;st
-407;Köttfärs Familj;181,90;kg
-408;Nötfärs Familj;163,90;kg
-409;Kycklingfilé Familj;174,90;kg
-410;Laxfilé Familj;181,90;kg
-411;Fläskytterfilé Familj;57,90;kg
-412;Torskfilé Familj;64,90;kg
-413;Korv Familj;19,90;st
-414;Bacon Familj;102,90;st
-415;Spaghetti Familj;115,90;st
-416;Jasminris Familj;56,90;st
-417;Vetemjöl Familj;83,90;st
-418;Strösocker Familj;25,90;st
-419;Krossade tomater Familj;121,90;st
-420;Kidneybönor Familj;113,90;st
-421;Kaffe Familj;127,90;st
-422;Te Familj;106,90;st
-423;Knäckebröd Familj;115,90;st
-424;Havregryn Familj;9,90;st
-425;Coca-Cola Familj;97,90;st
-426;Mineralvatten Familj;47,90;st
-427;Apelsinjuice Familj;121,90;st
-428;Äppeljuice Familj;105,90;st
-429;Läsk Familj;113,90;st
-430;Energidryck Familj;106,90;st
-431;Fryst pizza Familj;39,90;st
-432;Pommes frites Familj;103,90;st
-433;Frysta blåbär Familj;20,90;st
-434;Glass Familj;114,90;st
-435;Frysta ärtor Familj;112,90;st
-436;Fiskpinnar Familj;34,90;st
-437;Chips Familj;107,90;st
-438;Mjölkchoklad Familj;63,90;st
-439;Saltade jordnötter Familj;44,90;st
-440;Popcorn Familj;104,90;st
-441;Kakor Familj;34,90;st
-442;Lösgodis Familj;24,90;kg
-443;Diskmedel Familj;30,90;st
-444;Toalettpapper Familj;47,90;st
-445;Hushållspapper Familj;113,90;st
-446;Tvättmedel Familj;125,90;st
-447;Soppåsar Familj;41,90;st
-448;Bärkasse Familj;85,90;st
-449;Tandkräm Familj;56,90;st
-450;Schampo Familj;127,90;st
-451;Balsam Familj;72,90;st
-452;Duschgel Familj;122,90;st
-453;Handtvål Familj;21,90;st
-454;Deodorant Familj;126,90;st
-455;Bananer Mini;52,90;kg
-456;Äpplen Mini;193,90;kg
-457;Päron Mini;67,90;kg
-458;Apelsiner Mini;39,90;kg
-459;Tomater Mini;98,90;kg
-460;Potatis Mini;151,90;kg
-461;Morötter Mini;76,90;kg
-462;Gul lök Mini;129,90;kg
-463;Paprika Mini;112,90;kg
-464;Broccoli Mini;89,90;kg
-465;Avokado Mini;77,90;st
-466;Gurka Mini;38,90;st
-467;Citron Mini;94,90;st
-468;Mango Mini;7,90;st
-469;Kiwi Mini;120,90;st
-470;Mjölk Mini;73,90;st
-471;Havredryck Mini;95,90;st
-472;Smör Mini;98,90;st
-473;Vispgrädde Mini;89,90;st
-474;Grekisk yoghurt Mini;51,90;st
-475;Crème fraiche Mini;15,90;st
-476;Ägg Mini;88,90;st
-477;Ost Mini;47,90;st
-478;Köttfärs Mini;76,90;kg
-479;Nötfärs Mini;172,90;kg
-480;Kycklingfilé Mini;149,90;kg
-481;Laxfilé Mini;74,90;kg
-482;Fläskytterfilé Mini;75,90;kg
-483;Torskfilé Mini;93,90;kg
-484;Korv Mini;56,90;st
-485;Bacon Mini;43,90;st
-486;Spaghetti Mini;22,90;st
-487;Jasminris Mini;58,90;st
-488;Vetemjöl Mini;122,90;st
-489;Strösocker Mini;90,90;st
-490;Krossade tomater Mini;117,90;st
-491;Kidneybönor Mini;82,90;st
-492;Kaffe Mini;43,90;st
-493;Te Mini;74,90;st
-494;Knäckebröd Mini;6,90;st
-495;Havregryn Mini;42,90;st
-496;Coca-Cola Mini;59,90;st
-497;Mineralvatten Mini;78,90;st
-498;Apelsinjuice Mini;87,90;st
-499;Äppeljuice Mini;64,90;st
-500;Läsk Mini;61,90;st
-501;Energidryck Mini;33,90;st
-502;Fryst pizza Mini;65,90;st
-503;Pommes frites Mini;117,90;st
-504;Frysta blåbär Mini;104,90;st
-505;Glass Mini;27,90;st
-506;Frysta ärtor Mini;17,90;st
-507;Fiskpinnar Mini;70,90;st
-508;Chips Mini;84,90;st
-509;Mjölkchoklad Mini;48,90;st
-510;Saltade jordnötter Mini;107,90;st
-511;Popcorn Mini;99,90;st
-512;Kakor Mini;89,90;st
-513;Lösgodis Mini;60,90;kg
-514;Diskmedel Mini;31,90;st
-515;Toalettpapper Mini;9,90;st
-516;Hushållspapper Mini;37,90;st
-517;Tvättmedel Mini;65,90;st
-518;Soppåsar Mini;111,90;st
-519;Bärkasse Mini;15,90;st
-520;Tandkräm Mini;57,90;st
-521;Schampo Mini;84,90;st
-522;Balsam Mini;30,90;st
-523;Duschgel Mini;92,90;st
-524;Handtvål Mini;67,90;st
-525;Deodorant Mini;36,90;st
-526;Bananer Storpack;138,90;kg
-527;Äpplen Storpack;20,90;kg
-528;Päron Storpack;155,90;kg
-529;Apelsiner Storpack;158,90;kg
-530;Tomater Storpack;39,90;kg
-531;Potatis Storpack;96,90;kg
-532;Morötter Storpack;51,90;kg
-533;Gul lök Storpack;192,90;kg
-534;Paprika Storpack;113,90;kg
-535;Broccoli Storpack;28,90;kg
-536;Avokado Storpack;37,90;st
-537;Gurka Storpack;111,90;st
-538;Citron Storpack;63,90;st
-539;Mango Storpack;105,90;st
-540;Kiwi Storpack;89,90;st
-541;Mjölk Storpack;128,90;st
-542;Havredryck Storpack;80,90;st
-543;Smör Storpack;123,90;st
-544;Vispgrädde Storpack;116,90;st
-545;Grekisk yoghurt Storpack;82,90;st
-546;Crème fraiche Storpack;95,90;st
-547;Ägg Storpack;69,90;st
-548;Ost Storpack;109,90;st
-549;Köttfärs Storpack;118,90;kg
-550;Nötfärs Storpack;181,90;kg
-551;Kycklingfilé Storpack;153,90;kg
-552;Laxfilé Storpack;105,90;kg
-553;Fläskytterfilé Storpack;66,90;kg
-554;Torskfilé Storpack;64,90;kg
-555;Korv Storpack;85,90;st
-556;Bacon Storpack;101,90;st
-557;Spaghetti Storpack;71,90;st
-558;Jasminris Storpack;84,90;st
-559;Vetemjöl Storpack;40,90;st
-560;Strösocker Storpack;16,90;st
-561;Krossade tomater Storpack;42,90;st
-562;Kidneybönor Storpack;40,90;st
-563;Kaffe Storpack;46,90;st
-564;Te Storpack;73,90;st
-565;Knäckebröd Storpack;23,90;st
-566;Havregryn Storpack;35,90;st
-567;Coca-Cola Storpack;92,90;st
-568;Mineralvatten Storpack;93,90;st
-569;Apelsinjuice Storpack;14,90;st
-570;Äppeljuice Storpack;57,90;st
-571;Läsk Storpack;73,90;st
-572;Energidryck Storpack;58,90;st
-573;Fryst pizza Storpack;32,90;st
-574;Pommes frites Storpack;58,90;st
-575;Frysta blåbär Storpack;118,90;st
-576;Glass Storpack;78,90;st
-577;Frysta ärtor Storpack;92,90;st
-578;Fiskpinnar Storpack;112,90;st
-579;Chips Storpack;101,90;st
-580;Mjölkchoklad Storpack;53,90;st
-581;Saltade jordnötter Storpack;7,90;st
-582;Popcorn Storpack;50,90;st
-583;Kakor Storpack;99,90;st
-584;Lösgodis Storpack;173,90;kg
-585;Diskmedel Storpack;124,90;st
-586;Toalettpapper Storpack;58,90;st
-587;Hushållspapper Storpack;98,90;st
-588;Tvättmedel Storpack;74,90;st
-589;Soppåsar Storpack;81,90;st
-590;Bärkasse Storpack;34,90;st
-591;Tandkräm Storpack;33,90;st
-592;Schampo Storpack;60,90;st
-593;Balsam Storpack;10,90;st
-594;Duschgel Storpack;48,90;st
-595;Handtvål Storpack;90,90;st
-596;Deodorant Storpack;56,90;st
-597;Bananer Klassisk;49,90;kg
-598;Äpplen Klassisk;104,90;kg
-599;Päron Klassisk;42,90;kg
-600;Apelsiner Klassisk;131,90;kg
-601;Tomater Klassisk;24,90;kg
-602;Potatis Klassisk;90,90;kg
-603;Morötter Klassisk;121,90;kg
-604;Gul lök Klassisk;24,90;kg
-605;Paprika Klassisk;135,90;kg
-606;Broccoli Klassisk;44,90;kg
-607;Avokado Klassisk;63,90;st
-608;Gurka Klassisk;13,90;st
-609;Citron Klassisk;53,90;st
-610;Mango Klassisk;32,90;st
-611;Kiwi Klassisk;47,90;st
-612;Mjölk Klassisk;100,90;st
-613;Havredryck Klassisk;53,90;st
-614;Smör Klassisk;99,90;st
-615;Vispgrädde Klassisk;109,90;st
-616;Grekisk yoghurt Klassisk;37,90;st
-617;Crème fraiche Klassisk;17,90;st
-618;Ägg Klassisk;9,90;st
-619;Ost Klassisk;73,90;st
-620;Köttfärs Klassisk;199,90;kg
-621;Nötfärs Klassisk;82,90;kg
-622;Kycklingfilé Klassisk;136,90;kg
-623;Laxfilé Klassisk;160,90;kg
-624;Fläskytterfilé Klassisk;137,90;kg
-625;Torskfilé Klassisk;155,90;kg
-626;Korv Klassisk;123,90;st
-627;Bacon Klassisk;31,90;st
-628;Spaghetti Klassisk;9,90;st
-629;Jasminris Klassisk;25,90;st
-630;Vetemjöl Klassisk;22,90;st
-631;Strösocker Klassisk;89,90;st
-632;Krossade tomater Klassisk;76,90;st
-633;Kidneybönor Klassisk;33,90;st
-634;Kaffe Klassisk;92,90;st
-635;Te Klassisk;101,90;st
-636;Knäckebröd Klassisk;27,90;st
-637;Havregryn Klassisk;81,90;st
-638;Coca-Cola Klassisk;98,90;st
-639;Mineralvatten Klassisk;21,90;st
-640;Apelsinjuice Klassisk;107,90;st
-641;Äppeljuice Klassisk;125,90;st
-642;Läsk Klassisk;20,90;st
-643;Energidryck Klassisk;10,90;st
-644;Fryst pizza Klassisk;45,90;st
-645;Pommes frites Klassisk;90,90;st
-646;Frysta blåbär Klassisk;124,90;st
-647;Glass Klassisk;55,90;st
-648;Frysta ärtor Klassisk;94,90;st
-649;Fiskpinnar Klassisk;16,90;st
-650;Chips Klassisk;91,90;st
-651;Mjölkchoklad Klassisk;84,90;st
-652;Saltade jordnötter Klassisk;19,90;st
-653;Popcorn Klassisk;101,90;st
-654;Kakor Klassisk;111,90;st
-655;Lösgodis Klassisk;128,90;kg
-656;Diskmedel Klassisk;21,90;st
-657;Toalettpapper Klassisk;127,90;st
-658;Hushållspapper Klassisk;103,90;st
-659;Tvättmedel Klassisk;49,90;st
-660;Soppåsar Klassisk;59,90;st
-661;Bärkasse Klassisk;52,90;st
-662;Tandkräm Klassisk;69,90;st
-663;Schampo Klassisk;48,90;st
-664;Balsam Klassisk;111,90;st
-665;Duschgel Klassisk;108,90;st
-666;Handtvål Klassisk;19,90;st
-667;Deodorant Klassisk;125,90;st
-668;Bananer Naturell;134,90;kg
-669;Äpplen Naturell;169,90;kg
-670;Päron Naturell;147,90;kg
-671;Apelsiner Naturell;98,90;kg
-672;Tomater Naturell;152,90;kg
-673;Potatis Naturell;193,90;kg
-674;Morötter Naturell;68,90;kg
-675;Gul lök Naturell;165,90;kg
-676;Paprika Naturell;116,90;kg
-677;Broccoli Naturell;106,90;kg
-678;Avokado Naturell;60,90;st
-679;Gurka Naturell;96,90;st
-680;Citron Naturell;39,90;st
-681;Mango Naturell;111,90;st
-682;Kiwi Naturell;109,90;st
-683;Mjölk Naturell;17,90;st
-684;Havredryck Naturell;115,90;st
-685;Smör Naturell;36,90;st
-686;Vispgrädde Naturell;64,90;st
-687;Grekisk yoghurt Naturell;82,90;st
-688;Crème fraiche Naturell;53,90;st
-689;Ägg Naturell;10,90;st
-690;Ost Naturell;111,90;st
-691;Köttfärs Naturell;52,90;kg
-692;Nötfärs Naturell;58,90;kg
-693;Kycklingfilé Naturell;163,90;kg
-694;Laxfilé Naturell;81,90;kg
-695;Fläskytterfilé Naturell;178,90;kg
-696;Torskfilé Naturell;146,90;kg
-697;Korv Naturell;40,90;st
-698;Bacon Naturell;8,90;st
-699;Spaghetti Naturell;123,90;st
-700;Jasminris Naturell;17,90;st
-701;Vetemjöl Naturell;95,90;st
-702;Strösocker Naturell;67,90;st
-703;Krossade tomater Naturell;100,90;st
-704;Kidneybönor Naturell;91,90;st
-705;Kaffe Naturell;86,90;st
-706;Te Naturell;67,90;st
-707;Knäckebröd Naturell;104,90;st
-708;Havregryn Naturell;18,90;st
-709;Coca-Cola Naturell;34,90;st
-710;Mineralvatten Naturell;92,90;st
-711;Apelsinjuice Naturell;44,90;st
-712;Äppeljuice Naturell;78,90;st
-713;Läsk Naturell;65,90;st
-714;Energidryck Naturell;72,90;st
-715;Fryst pizza Naturell;59,90;st
-716;Pommes frites Naturell;98,90;st
-717;Frysta blåbär Naturell;47,90;st
-718;Glass Naturell;93,90;st
-719;Frysta ärtor Naturell;40,90;st
-720;Fiskpinnar Naturell;37,90;st
-721;Chips Naturell;21,90;st
-722;Mjölkchoklad Naturell;30,90;st
-723;Saltade jordnötter Naturell;21,90;st
-724;Popcorn Naturell;72,90;st
-725;Kakor Naturell;100,90;st
-726;Lösgodis Naturell;53,90;kg
-727;Diskmedel Naturell;33,90;st
-728;Toalettpapper Naturell;66,90;st
-729;Hushållspapper Naturell;96,90;st
-730;Tvättmedel Naturell;127,90;st
-731;Soppåsar Naturell;71,90;st
-732;Bärkasse Naturell;41,90;st
-733;Tandkräm Naturell;19,90;st
-734;Schampo Naturell;30,90;st
-735;Balsam Naturell;34,90;st
-736;Duschgel Naturell;29,90;st
-737;Handtvål Naturell;8,90;st
-738;Deodorant Naturell;72,90;st
-739;Bananer Extra;69,90;kg
-740;Äpplen Extra;195,90;kg
-741;Päron Extra;119,90;kg
-742;Apelsiner Extra;145,90;kg
-743;Tomater Extra;42,90;kg
-744;Potatis Extra;176,90;kg
-745;Morötter Extra;108,90;kg
-746;Gul lök Extra;177,90;kg
-747;Paprika Extra;123,90;kg
-748;Broccoli Extra;104,90;kg
-749;Avokado Extra;61,90;st
-750;Gurka Extra;29,90;st
-751;Citron Extra;13,90;st
-752;Mango Extra;122,90;st
-753;Kiwi Extra;65,90;st
-754;Mjölk Extra;108,90;st
-755;Havredryck Extra;56,90;st
-756;Smör Extra;16,90;st
-757;Vispgrädde Extra;84,90;st
-758;Grekisk yoghurt Extra;13,90;st
-759;Crème fraiche Extra;25,90;st
-760;Ägg Extra;76,90;st
-761;Ost Extra;44,90;st
-762;Köttfärs Extra;198,90;kg
-763;Nötfärs Extra;41,90;kg
-764;Kycklingfilé Extra;157,90;kg
-765;Laxfilé Extra;129,90;kg
-766;Fläskytterfilé Extra;162,90;kg
-767;Torskfilé Extra;60,90;kg
-768;Korv Extra;71,90;st
-769;Bacon Extra;62,90;st
-770;Spaghetti Extra;61,90;st
-771;Jasminris Extra;112,90;st
-772;Vetemjöl Extra;128,90;st
-773;Strösocker Extra;44,90;st
-774;Krossade tomater Extra;83,90;st
-775;Kidneybönor Extra;81,90;st
-776;Kaffe Extra;97,90;st
-777;Te Extra;123,90;st
-778;Knäckebröd Extra;32,90;st
-779;Havregryn Extra;32,90;st
-780;Coca-Cola Extra;88,90;st
-781;Mineralvatten Extra;26,90;st
-782;Apelsinjuice Extra;28,90;st
-783;Äppeljuice Extra;16,90;st
-784;Läsk Extra;7,90;st
-785;Energidryck Extra;62,90;st
-786;Fryst pizza Extra;79,90;st
-787;Pommes frites Extra;42,90;st
-788;Frysta blåbär Extra;35,90;st
-789;Glass Extra;93,90;st
-790;Frysta ärtor Extra;93,90;st
-791;Fiskpinnar Extra;62,90;st
-792;Chips Extra;91,90;st
-793;Mjölkchoklad Extra;120,90;st
-794;Saltade jordnötter Extra;103,90;st
-795;Popcorn Extra;83,90;st
-796;Kakor Extra;88,90;st
-797;Lösgodis Extra;188,90;kg
-798;Diskmedel Extra;59,90;st
-799;Toalettpapper Extra;73,90;st
-800;Hushållspapper Extra;86,90;st
-801;Tvättmedel Extra;118,90;st
-802;Soppåsar Extra;108,90;st
-803;Bärkasse Extra;15,90;st
-804;Tandkräm Extra;27,90;st
-805;Schampo Extra;44,90;st
-806;Balsam Extra;99,90;st
-807;Duschgel Extra;76,90;st
-808;Handtvål Extra;42,90;st
-809;Deodorant Extra;22,90;st
-810;Bananer Select;143,90;kg
-811;Äpplen Select;145,90;kg
-812;Päron Select;189,90;kg
-813;Apelsiner Select;110,90;kg
-814;Tomater Select;108,90;kg
-815;Potatis Select;34,90;kg
-816;Morötter Select;27,90;kg
-817;Gul lök Select;97,90;kg
-818;Paprika Select;77,90;kg
-819;Broccoli Select;65,90;kg
-820;Avokado Select;18,90;st
-821;Gurka Select;125,90;st
-822;Citron Select;109,90;st
-823;Mango Select;77,90;st
-824;Kiwi Select;123,90;st
-825;Mjölk Select;129,90;st
-826;Havredryck Select;89,90;st
-827;Smör Select;40,90;st
-828;Vispgrädde Select;11,90;st
-829;Grekisk yoghurt Select;99,90;st
-830;Crème fraiche Select;64,90;st
-831;Ägg Select;87,90;st
-832;Ost Select;119,90;st
-833;Köttfärs Select;52,90;kg
-834;Nötfärs Select;125,90;kg
-835;Kycklingfilé Select;134,90;kg
-836;Laxfilé Select;108,90;kg
-837;Fläskytterfilé Select;36,90;kg
-838;Torskfilé Select;82,90;kg
-839;Korv Select;47,90;st
-840;Bacon Select;89,90;st
-841;Spaghetti Select;112,90;st
-842;Jasminris Select;47,90;st
-843;Vetemjöl Select;92,90;st
-844;Strösocker Select;42,90;st
-845;Krossade tomater Select;123,90;st
-846;Kidneybönor Select;107,90;st
-847;Kaffe Select;74,90;st
-848;Te Select;62,90;st
-849;Knäckebröd Select;45,90;st
-850;Havregryn Select;46,90;st
-851;Coca-Cola Select;126,90;st
-852;Mineralvatten Select;56,90;st
-853;Apelsinjuice Select;70,90;st
-854;Äppeljuice Select;128,90;st
-855;Läsk Select;87,90;st
-856;Energidryck Select;73,90;st
-857;Fryst pizza Select;57,90;st
-858;Pommes frites Select;30,90;st
-859;Frysta blåbär Select;51,90;st
-860;Glass Select;99,90;st
-861;Frysta ärtor Select;83,90;st
-862;Fiskpinnar Select;100,90;st
-863;Chips Select;31,90;st
-864;Mjölkchoklad Select;74,90;st
-865;Saltade jordnötter Select;121,90;st
-866;Popcorn Select;60,90;st
-867;Kakor Select;92,90;st
-868;Lösgodis Select;41,90;kg
-869;Diskmedel Select;126,90;st
-870;Toalettpapper Select;81,90;st
-871;Hushållspapper Select;36,90;st
-872;Tvättmedel Select;26,90;st
-873;Soppåsar Select;74,90;st
-874;Bärkasse Select;74,90;st
-875;Tandkräm Select;18,90;st
-876;Schampo Select;128,90;st
-877;Balsam Select;119,90;st
-878;Duschgel Select;63,90;st
-879;Handtvål Select;21,90;st
-880;Deodorant Select;109,90;st
-881;Bananer Butikens;109,90;kg
-882;Äpplen Butikens;148,90;kg
-883;Päron Butikens;111,90;kg
-884;Apelsiner Butikens;69,90;kg
-885;Tomater Butikens;170,90;kg
-886;Potatis Butikens;196,90;kg
-887;Morötter Butikens;63,90;kg
-888;Gul lök Butikens;119,90;kg
-889;Paprika Butikens;88,90;kg
-890;Broccoli Butikens;185,90;kg
-891;Avokado Butikens;69,90;st
-892;Gurka Butikens;115,90;st
-893;Citron Butikens;113,90;st
-894;Mango Butikens;40,90;st
-895;Kiwi Butikens;104,90;st
-896;Mjölk Butikens;57,90;st
-897;Havredryck Butikens;121,90;st
-898;Smör Butikens;69,90;st
-899;Vispgrädde Butikens;107,90;st
-900;Grekisk yoghurt Butikens;41,90;st
-901;Crème fraiche Butikens;43,90;st
-902;Ägg Butikens;79,90;st
-903;Ost Butikens;129,90;st
-904;Köttfärs Butikens;108,90;kg
-905;Nötfärs Butikens;46,90;kg
-906;Kycklingfilé Butikens;116,90;kg
-907;Laxfilé Butikens;82,90;kg
-908;Fläskytterfilé Butikens;119,90;kg
-909;Torskfilé Butikens;117,90;kg
-910;Korv Butikens;62,90;st
-911;Bacon Butikens;46,90;st
-912;Spaghetti Butikens;30,90;st
-913;Jasminris Butikens;92,90;st
-914;Vetemjöl Butikens;77,90;st
-915;Strösocker Butikens;35,90;st
-916;Krossade tomater Butikens;102,90;st
-917;Kidneybönor Butikens;12,90;st
-918;Kaffe Butikens;98,90;st
-919;Te Butikens;93,90;st
-920;Knäckebröd Butikens;106,90;st
-921;Havregryn Butikens;54,90;st
-922;Coca-Cola Butikens;88,90;st
-923;Mineralvatten Butikens;107,90;st
-924;Apelsinjuice Butikens;127,90;st
-925;Äppeljuice Butikens;67,90;st
-926;Läsk Butikens;11,90;st
-927;Energidryck Butikens;68,90;st
-928;Fryst pizza Butikens;79,90;st
-929;Pommes frites Butikens;113,90;st
-930;Frysta blåbär Butikens;114,90;st
-931;Glass Butikens;61,90;st
-932;Frysta ärtor Butikens;71,90;st
-933;Fiskpinnar Butikens;63,90;st
-934;Chips Butikens;95,90;st
-935;Mjölkchoklad Butikens;57,90;st
-936;Saltade jordnötter Butikens;87,90;st
-937;Popcorn Butikens;25,90;st
-938;Kakor Butikens;64,90;st
-939;Lösgodis Butikens;194,90;kg
-940;Diskmedel Butikens;48,90;st
-941;Toalettpapper Butikens;92,90;st
-942;Hushållspapper Butikens;86,90;st
-943;Tvättmedel Butikens;111,90;st
-944;Soppåsar Butikens;111,90;st
-945;Bärkasse Butikens;112,90;st
-946;Tandkräm Butikens;53,90;st
-947;Schampo Butikens;45,90;st
-948;Balsam Butikens;95,90;st
-949;Duschgel Butikens;100,90;st
-950;Handtvål Butikens;114,90;st
-951;Deodorant Butikens;11,90;st
-952;Bananer Deluxe;32,90;kg
-953;Äpplen Deluxe;133,90;kg
-954;Päron Deluxe;185,90;kg
-955;Apelsiner Deluxe;199,90;kg
-956;Tomater Deluxe;154,90;kg
-957;Potatis Deluxe;98,90;kg
-958;Morötter Deluxe;37,90;kg
-959;Gul lök Deluxe;134,90;kg
-960;Paprika Deluxe;177,90;kg
-961;Broccoli Deluxe;99,90;kg
-962;Avokado Deluxe;92,90;st
-963;Gurka Deluxe;118,90;st
-964;Citron Deluxe;12,90;st
-965;Mango Deluxe;104,90;st
-966;Kiwi Deluxe;43,90;st
-967;Mjölk Deluxe;53,90;st
-968;Havredryck Deluxe;24,90;st
-969;Smör Deluxe;72,90;st
-970;Vispgrädde Deluxe;76,90;st
-971;Grekisk yoghurt Deluxe;104,90;st
-972;Crème fraiche Deluxe;27,90;st
-973;Ägg Deluxe;16,90;st
-974;Ost Deluxe;114,90;st
-975;Köttfärs Deluxe;131,90;kg
-976;Nötfärs Deluxe;63,90;kg
-977;Kycklingfilé Deluxe;184,90;kg
-978;Laxfilé Deluxe;45,90;kg
-979;Fläskytterfilé Deluxe;102,90;kg
-980;Torskfilé Deluxe;65,90;kg
-981;Korv Deluxe;38,90;st
-982;Bacon Deluxe;8,90;st
-983;Spaghetti Deluxe;105,90;st
-984;Jasminris Deluxe;117,90;st
-985;Vetemjöl Deluxe;90,90;st
-986;Strösocker Deluxe;26,90;st
-987;Krossade tomater Deluxe;61,90;st
-988;Kidneybönor Deluxe;49,90;st
-989;Kaffe Deluxe;79,90;st
-990;Te Deluxe;85,90;st
-991;Knäckebröd Deluxe;59,90;st
-992;Havregryn Deluxe;37,90;st
-993;Coca-Cola Deluxe;110,90;st
-994;Mineralvatten Deluxe;31,90;st
-995;Apelsinjuice Deluxe;54,90;st
-996;Äppeljuice Deluxe;66,90;st
-997;Läsk Deluxe;36,90;st
-998;Energidryck Deluxe;77,90;st
-999;Fryst pizza Deluxe;77,90;st
+﻿100;Bananer;29.90;Kg
+101;Mjölk;15.90;Styck
+102;Kaffe;59.90;Styck
+103;Äpplen;34.90;Kg
+104;Köttfärs;119.90;Kg
+105;Coca-Cola;24.90;Styck
+106;Tomater;39.90;Kg
+107;Ägg;39.90;Styck
+108;Potatis;16.90;Kg
+109;Smör;54.90;Styck
+110;Kycklingfilé;129.90;Kg
+111;Apelsiner;29.90;Kg
+112;Havredryck;24.90;Styck
+113;Gul lök;19.90;Kg
+114;Laxfilé;189.90;Kg
+115;Spaghetti;27.90;Styck
+116;Gurka;18.90;Styck
+117;Morötter;21.90;Kg
+118;Vispgrädde;28.90;Styck
+119;Päron;32.90;Kg
+120;Jasminris;34.90;Styck
+121;Paprika;49.90;Kg
+122;Yoghurt;29.90;Styck
+123;Fläskytterfilé;109.90;Kg
+124;Apelsinjuice;29.90;Styck
+125;Broccoli;39.90;Kg
+126;Vetemjöl;28.90;Styck
+127;Avokado;14.90;Styck
+128;Mineralvatten;16.90;Styck
+129;Nötfärs;139.90;Kg
+130;Mjölkchoklad;27.90;Styck
+131;Kiwi;8.90;Styck
+132;Krossade tomater;14.90;Styck
+133;Sötpotatis;34.90;Kg
+134;Te;39.90;Styck
+135;Citron;7.90;Styck
+136;Havregryn;24.90;Styck
+137;Rödlök;24.90;Kg
+138;Grekisk yoghurt;34.90;Styck
+139;Mango;24.90;Styck
+140;Knäckebröd;29.90;Styck
+141;Vitkål;19.90;Kg
+142;Kidneybönor;15.90;Styck
+143;Vindruvor;49.90;Kg
+144;Crème fraiche;22.90;Styck
+145;Vitlök;69.90;Kg
+146;Makaroner;19.90;Styck
+147;Purjolök;34.90;Kg
+148;Mozzarella;24.90;Styck
+149;Champinjoner;44.90;Kg
+150;Rågbröd;32.90;Styck
+151;Nektariner;39.90;Kg
+152;Filmjölk;18.90;Styck
+153;Zucchini;36.90;Kg
+154;Parmesan;54.90;Styck
+155;Clementiner;34.90;Kg
+156;Pasta Penne;24.90;Styck
+157;Aubergine;42.90;Kg
+158;Fetaost;29.90;Styck
+159;Persikor;44.90;Kg
+160;Cornflakes;32.90;Styck
+161;Plommontomater;42.90;Kg
+162;Keso;27.90;Styck
+163;Lime;8.90;Styck
+164;Müsli;39.90;Styck
+165;Blomkål;34.90;Kg
+166;Gräddfil;19.90;Styck
+167;Ananas;29.90;Styck
+168;Basmatiris;39.90;Styck
+169;Selleri;32.90;Kg
+170;Halloumi;34.90;Styck
+171;Melon;29.90;Kg
+172;Lasagneplattor;26.90;Styck
+173;Ingefära;89.90;Kg
+174;Vaniljyoghurt;31.90;Styck
+175;Granatäpple;19.90;Styck
+176;Couscous;29.90;Styck
+177;Rödbetor;24.90;Kg
+178;Cheddarost;44.90;Styck
+179;Grapefrukt;12.90;Styck
+180;Bulgur;27.90;Styck
+181;Salladshuvud;22.90;Styck
+182;Kvarg;24.90;Styck
+183;Färsk basilika;19.90;Styck
+184;Tortillabröd;32.90;Styck
+185;Spenat;89.90;Kg
+186;Philadelphiaost;29.90;Styck
+187;Majs;17.90;Styck
+188;Nudlar;12.90;Styck
+189;Isbergssallad;24.90;Styck
+190;Mandelmjölk;26.90;Styck
+191;Chili;99.90;Kg
+192;Tomatpuré;16.90;Styck
+193;Salladslök;19.90;Styck
+194;Riven ost;39.90;Styck
+195;Persilja;18.90;Styck
+196;Linser;19.90;Styck
+197;Dill;18.90;Styck
+198;Kokosmjölk;22.90;Styck
+199;Ruccola;24.90;Styck
+200;Fläskfilé;149.90;Kg
+201;Kycklinglår;89.90;Kg
+202;Entrecôte;299.90;Kg
+203;Torskfilé;169.90;Kg
+204;Bacon;29.90;Styck
+205;Falukorv;39.90;Styck
+206;Fläskfärs;99.90;Kg
+207;Räkor;189.90;Kg
+208;Kycklingfärs;109.90;Kg
+209;Varmkorv;34.90;Styck
+210;Lövbiff;249.90;Kg
+211;Sejfilé;139.90;Kg
+212;Salami;39.90;Styck
+213;Skinka;34.90;Styck
+214;Högrev;169.90;Kg
+215;Makrill;129.90;Kg
+216;Chorizo;42.90;Styck
+217;Kassler;89.90;Kg
+218;Hamburgare;59.90;Styck
+219;Kycklingvingar;79.90;Kg
+220;Tonfisk;24.90;Styck
+221;Rostbiff;199.90;Kg
+222;Leverpastej;29.90;Styck
+223;Kalkonpålägg;36.90;Styck
+224;Schnitzel;139.90;Kg
+225;Köttbullar;69.90;Styck
+226;Pulled pork;119.90;Kg
+227;Grillkorv;44.90;Styck
+228;Lammfärs;159.90;Kg
+229;Sill;29.90;Styck
+230;Prosciutto;49.90;Styck
+231;Oxfilé;449.90;Kg
+232;Kycklingklubbor;69.90;Kg
+233;Fläskkotlett;99.90;Kg
+234;Laxportioner;79.90;Styck
+235;Prinskorv;39.90;Styck
+236;Kebabkött;89.90;Styck
+237;Kräftstjärtar;49.90;Styck
+238;Kycklingkorv;36.90;Styck
+239;Revbensspjäll;119.90;Kg
+240;Pancetta;44.90;Styck
+241;Fryst pizza;44.90;Styck
+242;Pommes frites;36.90;Styck
+243;Fiskpinnar;39.90;Styck
+244;Frysta ärtor;24.90;Styck
+245;Frysta blåbär;49.90;Styck
+246;Vaniljglass;39.90;Styck
+247;Fryst broccoli;29.90;Styck
+248;Kycklingnuggets;49.90;Styck
+249;Frysta hallon;54.90;Styck
+250;Lasagne;44.90;Styck
+251;Pyttipanna;39.90;Styck
+252;Frysta jordgubbar;49.90;Styck
+253;Wokgrönsaker;34.90;Styck
+254;Panerad fisk;49.90;Styck
+255;Kanelbullar;39.90;Styck
+256;Fryst spenat;24.90;Styck
+257;Hamburgare frysta;69.90;Styck
+258;Vitlöksbröd;29.90;Styck
+259;Fryst mango;49.90;Styck
+260;Köttbullar frysta;59.90;Styck
+261;Chips;29.90;Styck
+262;Popcorn;24.90;Styck
+263;Lösgodis;99.90;Kg
+264;Jordnötter;24.90;Styck
+265;Gelégodis;19.90;Styck
+266;Mörk choklad;29.90;Styck
+267;Kexchoklad;12.90;Styck
+268;Nachochips;27.90;Styck
+269;Cashewnötter;39.90;Styck
+270;Lakrits;22.90;Styck
+271;Cookies;29.90;Styck
+272;Ostbågar;28.90;Styck
+273;Mandel;34.90;Styck
+274;Proteinbar;24.90;Styck
+275;Marshmallows;22.90;Styck
+276;Digestivekex;26.90;Styck
+277;Russin;19.90;Styck
+278;Chokladkakor;32.90;Styck
+279;Riskakor;19.90;Styck
+280;Tuggummi;14.90;Styck
+281;Cola Zero;24.90;Styck
+282;Fanta;24.90;Styck
+283;Sprite;24.90;Styck
+284;Energidryck;21.90;Styck
+285;Äppeljuice;27.90;Styck
+286;Multivitaminjuice;29.90;Styck
+287;Kolsyrat vatten;16.90;Styck
+288;Iste;24.90;Styck
+289;Saft;32.90;Styck
+290;Tonic Water;19.90;Styck
+291;Ingefärsöl;22.90;Styck
+292;Smoothie;29.90;Styck
+293;Kokosvatten;27.90;Styck
+294;Citronläsk;21.90;Styck
+295;Druvjuice;29.90;Styck
+296;Tranbärsjuice;31.90;Styck
+297;Tomatjuice;26.90;Styck
+298;Hallonsaft;34.90;Styck
+299;Limevatten;18.90;Styck
+300;Diskmedel;32.90;Styck
+301;Toalettpapper;59.90;Styck
+302;Hushållspapper;44.90;Styck
+303;Tvättmedel;89.90;Styck
+304;Sköljmedel;39.90;Styck
+305;Soppåsar;29.90;Styck
+306;Diskmaskinstabletter;79.90;Styck
+307;Allrengöring;34.90;Styck
+308;Fönsterputs;29.90;Styck
+309;Kökssvampar;19.90;Styck
+310;Bakplåtspapper;24.90;Styck
+311;Aluminiumfolie;29.90;Styck
+312;Plastfolie;24.90;Styck
+313;Fryspåsar;26.90;Styck
+314;Servetter;22.90;Styck
+315;Tändstickor;14.90;Styck
+316;Värmeljus;39.90;Styck
+317;Gummihandskar;29.90;Styck
+318;Mikrofiberdukar;34.90;Styck
+319;WC-rengöring;32.90;Styck
+320;Tandkräm;27.90;Styck
+321;Tandborste;24.90;Styck
+322;Schampo;39.90;Styck
+323;Balsam;39.90;Styck
+324;Duschgel;34.90;Styck
+325;Handtvål;24.90;Styck
+326;Deodorant;32.90;Styck
+327;Rakhyvlar;49.90;Styck
+328;Rakgel;39.90;Styck
+329;Bomullspinnar;19.90;Styck
+330;Bomullsrondeller;22.90;Styck
+331;Handkräm;34.90;Styck
+332;Body lotion;49.90;Styck
+333;Hårgel;34.90;Styck
+334;Hårspray;39.90;Styck
+335;Munskölj;44.90;Styck
+336;Tandtråd;29.90;Styck
+337;Plåster;34.90;Styck
+338;Näsdukar;19.90;Styck
+339;Våtservetter;29.90;Styck
+340;Solkräm;89.90;Styck
+341;Handdesinfektion;29.90;Styck
+342;Läppbalsam;24.90;Styck
+343;Ansiktskräm;69.90;Styck
+344;Ansiktstvätt;54.90;Styck
+345;Rakhyvel engångs;29.90;Styck
+346;Nagellacksremover;34.90;Styck
+347;Hårborste;49.90;Styck
+348;Trosskydd;34.90;Styck
+349;Bindor;39.90;Styck
+350;Tamponger;44.90;Styck
+351;Bärkasse;6.90;Styck
+352;Papperskasse;8.90;Styck
+353;Hundmat;79.90;Styck
+354;Kattmat;69.90;Styck
+355;Hundgodis;39.90;Styck
+356;Kattgodis;34.90;Styck
+357;Kattsand;89.90;Styck
+358;Hundbajspåsar;29.90;Styck
+359;Fågelmat;49.90;Styck
+360;Diskborste;24.90;Styck
+361;Glödlampa;39.90;Styck
+362;Batterier AA;49.90;Styck
+363;Batterier AAA;49.90;Styck
+364;Tejp;24.90;Styck
+365;Superlim;34.90;Styck
+366;Anteckningsblock;29.90;Styck
+367;Kulspetspennor;24.90;Styck
+368;Blyertspennor;19.90;Styck
+369;Suddgummi;12.90;Styck
+370;Kuvert;29.90;Styck
+371;Bakpulver;14.90;Styck
+372;Vaniljsocker;16.90;Styck
+373;Kakao;34.90;Styck
+374;Honung;49.90;Styck
+375;Jordnötssmör;39.90;Styck
+376;Sylt jordgubb;34.90;Styck
+377;Marmelad apelsin;32.90;Styck
+378;Nutella;49.90;Styck
+379;Senap;24.90;Styck
+380;Ketchup;29.90;Styck
+381;Majonnäs;32.90;Styck
+382;Sojasås;29.90;Styck
+383;Olivolja;89.90;Styck
+384;Rapsolja;49.90;Styck
+385;Vinäger;24.90;Styck
+386;Salt;16.90;Styck
+387;Svartpeppar;29.90;Styck
+388;Paprikapulver;24.90;Styck
+389;Oregano;22.90;Styck
+390;Kanel;24.90;Styck
+391;Tacokrydda;14.90;Styck
+392;Tacosås;24.90;Styck
+393;Tortillachips;29.90;Styck
+394;Salsa;27.90;Styck
+395;Guacamole;34.90;Styck
+396;Pesto;39.90;Styck
+397;Pastasås;29.90;Styck
+398;Buljong;24.90;Styck
+399;Currypasta;34.90;Styck
+400;Kokosgrädde;24.90;Styck
