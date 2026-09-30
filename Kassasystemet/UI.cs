@@ -6,6 +6,10 @@ namespace Kassasystemet
 {
     internal class UI
     {
+        public UI()
+        {
+
+        }
         public static void Visameny()
         {
             Console.WriteLine("""
@@ -16,14 +20,15 @@ namespace Kassasystemet
 
                     Val:
                     """);
-
+            int.TryParse.Console.ReadLine(out användarinput);
             switch (användarinput)
                 case "1":
                 {
 
                 }
-        }
-        
+            }
+
+
         public static string Nyvara()
         {
             while (true)
@@ -40,21 +45,40 @@ namespace Kassasystemet
                 }
             }
         }
-        public string LasaID()
+        public static string LasaID()
         {
-            string id = Console.ReadLine().Trim().ToLower();
-            if (string.IsNullOrWhiteSpace(id))
+            while (true)
             {
-                cw
+                string id = Console.ReadLine().Trim().ToLower();
+                if (!string.IsNullOrWhiteSpace(id))
+                {
+                    return id;
+                }
+                Console.WriteLine("felaktig input eller produkt finns ej");
             }
-            return id;
+            
+            
         }
 
+        public static int LasaMenyVal()
+        {
+            while (true)
+            {
+                if (int.TryParse(Console.ReadLine(), out int val))
+                {
+                    return val;
+                }
+                Console.WriteLine("felaktig input");
+            }
+        }
 
+        public static void StartaNyKund()
+        {
+            Console.WriteLine("Ange varans produkt-ID:");
 
+            string id = LasaID();
 
-
-
-
+            Console.WriteLine($"du skrev {id}");
+        }
     }
 }
