@@ -6,6 +6,7 @@ namespace Kassasystemet
 {
     internal class UI
     {
+        static Dictionary<string, Produkt> produktregister = ProduktRegister.LasinProdukter();
         public UI()
         {
 
@@ -29,19 +30,19 @@ namespace Kassasystemet
             }
 
 
-        public static string Nyvara()
+        public static bool Nyvara()
         {
             while (true)
             {
                 Console.Write("Ska fler varor skall läggas till? (ja/Nej): ");
                 string fortsätta = Console.ReadLine().ToLower().Trim();
-                if (fortsätta == "ja" || fortsätta == "nej")
+                if (fortsätta == "ja")
                 {
-                    return fortsätta;
+                    return true;
                 }
                 else
                 {
-                    Console.WriteLine("felaktig input, försök igen");
+                    Console.WriteLine("tack för din tid");
                 }
             }
         }
@@ -74,11 +75,27 @@ namespace Kassasystemet
 
         public static void StartaNyKund()
         {
-            Console.WriteLine("Ange varans produkt-ID:");
+            List<Produkt> varukorgen = new List<Produkt>();
+            while (true)
+            {
+                Console.WriteLine("Ange varans produkt-ID:");
 
-            string id = LasaID();
+                string id = LasaID();
 
-            Console.WriteLine($"du skrev {id}");
+                Console.WriteLine($"du skrev {id}");
+
+                Console.WriteLine($"Du la till: {produktregister[id].Namn}, \nvill du lägga till en till produkt? (ja/nej) ");
+                varukorgen.Add(produktregister[id]);
+                bool fortsätta = Nyvara();
+                if (fortsätta == true)
+                {
+                    continue;
+                }
+                else
+                    break;
+            }
+            
+
         }
     }
 }

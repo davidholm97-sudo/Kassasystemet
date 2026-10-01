@@ -6,6 +6,7 @@ namespace Kassasystemet
 {
     internal class Beräkningar
     {
+        Produkt varupris = new Produkt();
         public decimal Räknapris()
         {
             decimal slutPris = Produkt.pris 

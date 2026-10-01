@@ -4,12 +4,24 @@ using System.Text;
 
 namespace Kassasystemet
 {
-    internal class Produkt
+    public class Produkt
     {
         public string Id;
-        public string Name;
+        public string Namn;
         public decimal Pris;
         public string Enhet;
 
+
+        public Produkt(string id, string namn, decimal pris, string enhet)
+        {
+            Id = id;
+
+            Namn = namn;
+
+            Pris = pris;
+
+            Enhet = enhet;
+
+        }
     }
 }

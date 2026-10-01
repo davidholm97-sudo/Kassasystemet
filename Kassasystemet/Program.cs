@@ -16,26 +16,51 @@ namespace Kassasystemet
         };*/
         static void Main(string[] args)
         {
-            bool programmetKor;
-            string fortsätta;
-            string id;
-            while (programmetKor = true)
-            { 
-                Console.WriteLine("Välkommen till Kassan");
+            while (true)
+            {
+                UI.Visameny();
+
+                int menyval = UI.LasaMenyVal();
+
+                switch (menyval)
+                {
+                    case 1:
+                        UI.StartaNyKund();
+                        break;
+
+                    case 2:
+                        /*Admin.VisaAdmin();*/
+                        break;
+
+                    case 3:
+                        break;
+                        Environment.Exit(0);
+
+                    default:
+                        break;
+
+
+
+
+                }
+
+            }
+
+
+            Console.WriteLine("Välkommen till Kassan");
 
                 string[] rader = File.ReadAllLines("produkter.txt");
                 Dictionary<string, Produkt> produkter = new Dictionary<string, Produkt>();
                     foreach (string rad in rader)
                     {
                         string[] delar = rad.Split(';');
-                        produkter.Add(delar, Produkt);
+                        produkter.Add(id, produkt);
                     }
                     if (produkter.ContainsKey("255"))
                     {
                         Console.WriteLine(produkter["255"]);
                     }
 
-                UI.Visameny();
                 int användarsvar = Convert.ToInt32(Console.ReadLine().Trim());
               
                 switch (användarsvar)
@@ -70,7 +95,7 @@ namespace Kassasystemet
                         Console.WriteLine("ogiltig input");
                         continue;
                 }
-            }
+            
         }
     }
 }
