@@ -1,301 +1,301 @@
-﻿100;Bananer;29.90;Kg
-101;Mjölk;15.90;Styck
-102;Kaffe;59.90;Styck
-103;Äpplen;34.90;Kg
-104;Köttfärs;119.90;Kg
-105;Coca-Cola;24.90;Styck
-106;Tomater;39.90;Kg
-107;Ägg;39.90;Styck
-108;Potatis;16.90;Kg
-109;Smör;54.90;Styck
-110;Kycklingfilé;129.90;Kg
-111;Apelsiner;29.90;Kg
-112;Havredryck;24.90;Styck
-113;Gul lök;19.90;Kg
-114;Laxfilé;189.90;Kg
-115;Spaghetti;27.90;Styck
-116;Gurka;18.90;Styck
-117;Morötter;21.90;Kg
-118;Vispgrädde;28.90;Styck
-119;Päron;32.90;Kg
-120;Jasminris;34.90;Styck
-121;Paprika;49.90;Kg
-122;Yoghurt;29.90;Styck
-123;Fläskytterfilé;109.90;Kg
-124;Apelsinjuice;29.90;Styck
-125;Broccoli;39.90;Kg
-126;Vetemjöl;28.90;Styck
-127;Avokado;14.90;Styck
-128;Mineralvatten;16.90;Styck
-129;Nötfärs;139.90;Kg
-130;Mjölkchoklad;27.90;Styck
-131;Kiwi;8.90;Styck
-132;Krossade tomater;14.90;Styck
-133;Sötpotatis;34.90;Kg
-134;Te;39.90;Styck
-135;Citron;7.90;Styck
-136;Havregryn;24.90;Styck
-137;Rödlök;24.90;Kg
-138;Grekisk yoghurt;34.90;Styck
-139;Mango;24.90;Styck
-140;Knäckebröd;29.90;Styck
-141;Vitkål;19.90;Kg
-142;Kidneybönor;15.90;Styck
-143;Vindruvor;49.90;Kg
-144;Crème fraiche;22.90;Styck
-145;Vitlök;69.90;Kg
-146;Makaroner;19.90;Styck
-147;Purjolök;34.90;Kg
-148;Mozzarella;24.90;Styck
-149;Champinjoner;44.90;Kg
-150;Rågbröd;32.90;Styck
-151;Nektariner;39.90;Kg
-152;Filmjölk;18.90;Styck
-153;Zucchini;36.90;Kg
-154;Parmesan;54.90;Styck
-155;Clementiner;34.90;Kg
-156;Pasta Penne;24.90;Styck
-157;Aubergine;42.90;Kg
-158;Fetaost;29.90;Styck
-159;Persikor;44.90;Kg
-160;Cornflakes;32.90;Styck
-161;Plommontomater;42.90;Kg
-162;Keso;27.90;Styck
-163;Lime;8.90;Styck
-164;Müsli;39.90;Styck
-165;Blomkål;34.90;Kg
-166;Gräddfil;19.90;Styck
-167;Ananas;29.90;Styck
-168;Basmatiris;39.90;Styck
-169;Selleri;32.90;Kg
-170;Halloumi;34.90;Styck
-171;Melon;29.90;Kg
-172;Lasagneplattor;26.90;Styck
-173;Ingefära;89.90;Kg
-174;Vaniljyoghurt;31.90;Styck
-175;Granatäpple;19.90;Styck
-176;Couscous;29.90;Styck
-177;Rödbetor;24.90;Kg
-178;Cheddarost;44.90;Styck
-179;Grapefrukt;12.90;Styck
-180;Bulgur;27.90;Styck
-181;Salladshuvud;22.90;Styck
-182;Kvarg;24.90;Styck
-183;Färsk basilika;19.90;Styck
-184;Tortillabröd;32.90;Styck
-185;Spenat;89.90;Kg
-186;Philadelphiaost;29.90;Styck
-187;Majs;17.90;Styck
-188;Nudlar;12.90;Styck
-189;Isbergssallad;24.90;Styck
-190;Mandelmjölk;26.90;Styck
-191;Chili;99.90;Kg
-192;Tomatpuré;16.90;Styck
-193;Salladslök;19.90;Styck
-194;Riven ost;39.90;Styck
-195;Persilja;18.90;Styck
-196;Linser;19.90;Styck
-197;Dill;18.90;Styck
-198;Kokosmjölk;22.90;Styck
-199;Ruccola;24.90;Styck
-200;Fläskfilé;149.90;Kg
-201;Kycklinglår;89.90;Kg
-202;Entrecôte;299.90;Kg
-203;Torskfilé;169.90;Kg
-204;Bacon;29.90;Styck
-205;Falukorv;39.90;Styck
-206;Fläskfärs;99.90;Kg
-207;Räkor;189.90;Kg
-208;Kycklingfärs;109.90;Kg
-209;Varmkorv;34.90;Styck
-210;Lövbiff;249.90;Kg
-211;Sejfilé;139.90;Kg
-212;Salami;39.90;Styck
-213;Skinka;34.90;Styck
-214;Högrev;169.90;Kg
-215;Makrill;129.90;Kg
-216;Chorizo;42.90;Styck
-217;Kassler;89.90;Kg
-218;Hamburgare;59.90;Styck
-219;Kycklingvingar;79.90;Kg
-220;Tonfisk;24.90;Styck
-221;Rostbiff;199.90;Kg
-222;Leverpastej;29.90;Styck
-223;Kalkonpålägg;36.90;Styck
-224;Schnitzel;139.90;Kg
-225;Köttbullar;69.90;Styck
-226;Pulled pork;119.90;Kg
-227;Grillkorv;44.90;Styck
-228;Lammfärs;159.90;Kg
-229;Sill;29.90;Styck
-230;Prosciutto;49.90;Styck
-231;Oxfilé;449.90;Kg
-232;Kycklingklubbor;69.90;Kg
-233;Fläskkotlett;99.90;Kg
-234;Laxportioner;79.90;Styck
-235;Prinskorv;39.90;Styck
-236;Kebabkött;89.90;Styck
-237;Kräftstjärtar;49.90;Styck
-238;Kycklingkorv;36.90;Styck
-239;Revbensspjäll;119.90;Kg
-240;Pancetta;44.90;Styck
-241;Fryst pizza;44.90;Styck
-242;Pommes frites;36.90;Styck
-243;Fiskpinnar;39.90;Styck
-244;Frysta ärtor;24.90;Styck
-245;Frysta blåbär;49.90;Styck
-246;Vaniljglass;39.90;Styck
-247;Fryst broccoli;29.90;Styck
-248;Kycklingnuggets;49.90;Styck
-249;Frysta hallon;54.90;Styck
-250;Lasagne;44.90;Styck
-251;Pyttipanna;39.90;Styck
-252;Frysta jordgubbar;49.90;Styck
-253;Wokgrönsaker;34.90;Styck
-254;Panerad fisk;49.90;Styck
-255;Kanelbullar;39.90;Styck
-256;Fryst spenat;24.90;Styck
-257;Hamburgare frysta;69.90;Styck
-258;Vitlöksbröd;29.90;Styck
-259;Fryst mango;49.90;Styck
-260;Köttbullar frysta;59.90;Styck
-261;Chips;29.90;Styck
-262;Popcorn;24.90;Styck
-263;Lösgodis;99.90;Kg
-264;Jordnötter;24.90;Styck
-265;Gelégodis;19.90;Styck
-266;Mörk choklad;29.90;Styck
-267;Kexchoklad;12.90;Styck
-268;Nachochips;27.90;Styck
-269;Cashewnötter;39.90;Styck
-270;Lakrits;22.90;Styck
-271;Cookies;29.90;Styck
-272;Ostbågar;28.90;Styck
-273;Mandel;34.90;Styck
-274;Proteinbar;24.90;Styck
-275;Marshmallows;22.90;Styck
-276;Digestivekex;26.90;Styck
-277;Russin;19.90;Styck
-278;Chokladkakor;32.90;Styck
-279;Riskakor;19.90;Styck
-280;Tuggummi;14.90;Styck
-281;Cola Zero;24.90;Styck
-282;Fanta;24.90;Styck
-283;Sprite;24.90;Styck
-284;Energidryck;21.90;Styck
-285;Äppeljuice;27.90;Styck
-286;Multivitaminjuice;29.90;Styck
-287;Kolsyrat vatten;16.90;Styck
-288;Iste;24.90;Styck
-289;Saft;32.90;Styck
-290;Tonic Water;19.90;Styck
-291;Ingefärsöl;22.90;Styck
-292;Smoothie;29.90;Styck
-293;Kokosvatten;27.90;Styck
-294;Citronläsk;21.90;Styck
-295;Druvjuice;29.90;Styck
-296;Tranbärsjuice;31.90;Styck
-297;Tomatjuice;26.90;Styck
-298;Hallonsaft;34.90;Styck
-299;Limevatten;18.90;Styck
-300;Diskmedel;32.90;Styck
-301;Toalettpapper;59.90;Styck
-302;Hushållspapper;44.90;Styck
-303;Tvättmedel;89.90;Styck
-304;Sköljmedel;39.90;Styck
-305;Soppåsar;29.90;Styck
-306;Diskmaskinstabletter;79.90;Styck
-307;Allrengöring;34.90;Styck
-308;Fönsterputs;29.90;Styck
-309;Kökssvampar;19.90;Styck
-310;Bakplåtspapper;24.90;Styck
-311;Aluminiumfolie;29.90;Styck
-312;Plastfolie;24.90;Styck
-313;Fryspåsar;26.90;Styck
-314;Servetter;22.90;Styck
-315;Tändstickor;14.90;Styck
-316;Värmeljus;39.90;Styck
-317;Gummihandskar;29.90;Styck
-318;Mikrofiberdukar;34.90;Styck
-319;WC-rengöring;32.90;Styck
-320;Tandkräm;27.90;Styck
-321;Tandborste;24.90;Styck
-322;Schampo;39.90;Styck
-323;Balsam;39.90;Styck
-324;Duschgel;34.90;Styck
-325;Handtvål;24.90;Styck
-326;Deodorant;32.90;Styck
-327;Rakhyvlar;49.90;Styck
-328;Rakgel;39.90;Styck
-329;Bomullspinnar;19.90;Styck
-330;Bomullsrondeller;22.90;Styck
-331;Handkräm;34.90;Styck
-332;Body lotion;49.90;Styck
-333;Hårgel;34.90;Styck
-334;Hårspray;39.90;Styck
-335;Munskölj;44.90;Styck
-336;Tandtråd;29.90;Styck
-337;Plåster;34.90;Styck
-338;Näsdukar;19.90;Styck
-339;Våtservetter;29.90;Styck
-340;Solkräm;89.90;Styck
-341;Handdesinfektion;29.90;Styck
-342;Läppbalsam;24.90;Styck
-343;Ansiktskräm;69.90;Styck
-344;Ansiktstvätt;54.90;Styck
-345;Rakhyvel engångs;29.90;Styck
-346;Nagellacksremover;34.90;Styck
-347;Hårborste;49.90;Styck
-348;Trosskydd;34.90;Styck
-349;Bindor;39.90;Styck
-350;Tamponger;44.90;Styck
-351;Bärkasse;6.90;Styck
-352;Papperskasse;8.90;Styck
-353;Hundmat;79.90;Styck
-354;Kattmat;69.90;Styck
-355;Hundgodis;39.90;Styck
-356;Kattgodis;34.90;Styck
-357;Kattsand;89.90;Styck
-358;Hundbajspåsar;29.90;Styck
-359;Fågelmat;49.90;Styck
-360;Diskborste;24.90;Styck
-361;Glödlampa;39.90;Styck
-362;Batterier AA;49.90;Styck
-363;Batterier AAA;49.90;Styck
-364;Tejp;24.90;Styck
-365;Superlim;34.90;Styck
-366;Anteckningsblock;29.90;Styck
-367;Kulspetspennor;24.90;Styck
-368;Blyertspennor;19.90;Styck
-369;Suddgummi;12.90;Styck
-370;Kuvert;29.90;Styck
-371;Bakpulver;14.90;Styck
-372;Vaniljsocker;16.90;Styck
-373;Kakao;34.90;Styck
-374;Honung;49.90;Styck
-375;Jordnötssmör;39.90;Styck
-376;Sylt jordgubb;34.90;Styck
-377;Marmelad apelsin;32.90;Styck
-378;Nutella;49.90;Styck
-379;Senap;24.90;Styck
-380;Ketchup;29.90;Styck
-381;Majonnäs;32.90;Styck
-382;Sojasås;29.90;Styck
-383;Olivolja;89.90;Styck
-384;Rapsolja;49.90;Styck
-385;Vinäger;24.90;Styck
-386;Salt;16.90;Styck
-387;Svartpeppar;29.90;Styck
-388;Paprikapulver;24.90;Styck
-389;Oregano;22.90;Styck
-390;Kanel;24.90;Styck
-391;Tacokrydda;14.90;Styck
-392;Tacosås;24.90;Styck
-393;Tortillachips;29.90;Styck
-394;Salsa;27.90;Styck
-395;Guacamole;34.90;Styck
-396;Pesto;39.90;Styck
-397;Pastasås;29.90;Styck
-398;Buljong;24.90;Styck
-399;Currypasta;34.90;Styck
-400;Kokosgrädde;24.90;Styck
+﻿100;Bananer;29,90;Kg
+101;Mjölk;15,90;Styck
+102;Kaffe;59,90;Styck
+103;Äpplen;34,90;Kg
+104;Köttfärs;119,90;Kg
+105;Coca-Cola;24,90;Styck
+106;Tomater;39,90;Kg
+107;Ägg;39,90;Styck
+108;Potatis;16,90;Kg
+109;Smör;54,90;Styck
+110;Kycklingfilé;129,90;Kg
+111;Apelsiner;29,90;Kg
+112;Havredryck;24,90;Styck
+113;Gul lök;19,90;Kg
+114;Laxfilé;189,90;Kg
+115;Spaghetti;27,90;Styck
+116;Gurka;18,90;Styck
+117;Morötter;21,90;Kg
+118;Vispgrädde;28,90;Styck
+119;Päron;32,90;Kg
+120;Jasminris;34,90;Styck
+121;Paprika;49,90;Kg
+122;Yoghurt;29,90;Styck
+123;Fläskytterfilé;109,90;Kg
+124;Apelsinjuice;29,90;Styck
+125;Broccoli;39,90;Kg
+126;Vetemjöl;28,90;Styck
+127;Avokado;14,90;Styck
+128;Mineralvatten;16,90;Styck
+129;Nötfärs;139,90;Kg
+130;Mjölkchoklad;27,90;Styck
+131;Kiwi;8,90;Styck
+132;Krossade tomater;14,90;Styck
+133;Sötpotatis;34,90;Kg
+134;Te;39,90;Styck
+135;Citron;7,90;Styck
+136;Havregryn;24,90;Styck
+137;Rödlök;24,90;Kg
+138;Grekisk yoghurt;34,90;Styck
+139;Mango;24,90;Styck
+140;Knäckebröd;29,90;Styck
+141;Vitkål;19,90;Kg
+142;Kidneybönor;15,90;Styck
+143;Vindruvor;49,90;Kg
+144;Crème fraiche;22,90;Styck
+145;Vitlök;69,90;Kg
+146;Makaroner;19,90;Styck
+147;Purjolök;34,90;Kg
+148;Mozzarella;24,90;Styck
+149;Champinjoner;44,90;Kg
+150;Rågbröd;32,90;Styck
+151;Nektariner;39,90;Kg
+152;Filmjölk;18,90;Styck
+153;Zucchini;36,90;Kg
+154;Parmesan;54,90;Styck
+155;Clementiner;34,90;Kg
+156;Pasta Penne;24,90;Styck
+157;Aubergine;42,90;Kg
+158;Fetaost;29,90;Styck
+159;Persikor;44,90;Kg
+160;Cornflakes;32,90;Styck
+161;Plommontomater;42,90;Kg
+162;Keso;27,90;Styck
+163;Lime;8,90;Styck
+164;Müsli;39,90;Styck
+165;Blomkål;34,90;Kg
+166;Gräddfil;19,90;Styck
+167;Ananas;29,90;Styck
+168;Basmatiris;39,90;Styck
+169;Selleri;32,90;Kg
+170;Halloumi;34,90;Styck
+171;Melon;29,90;Kg
+172;Lasagneplattor;26,90;Styck
+173;Ingefära;89,90;Kg
+174;Vaniljyoghurt;31,90;Styck
+175;Granatäpple;19,90;Styck
+176;Couscous;29,90;Styck
+177;Rödbetor;24,90;Kg
+178;Cheddarost;44,90;Styck
+179;Grapefrukt;12,90;Styck
+180;Bulgur;27,90;Styck
+181;Salladshuvud;22,90;Styck
+182;Kvarg;24,90;Styck
+183;Färsk basilika;19,90;Styck
+184;Tortillabröd;32,90;Styck
+185;Spenat;89,90;Kg
+186;Philadelphiaost;29,90;Styck
+187;Majs;17,90;Styck
+188;Nudlar;12,90;Styck
+189;Isbergssallad;24,90;Styck
+190;Mandelmjölk;26,90;Styck
+191;Chili;99,90;Kg
+192;Tomatpuré;16,90;Styck
+193;Salladslök;19,90;Styck
+194;Riven ost;39,90;Styck
+195;Persilja;18,90;Styck
+196;Linser;19,90;Styck
+197;Dill;18,90;Styck
+198;Kokosmjölk;22,90;Styck
+199;Ruccola;24,90;Styck
+200;Fläskfilé;149,90;Kg
+201;Kycklinglår;89,90;Kg
+202;Entrecôte;299,90;Kg
+203;Torskfilé;169,90;Kg
+204;Bacon;29,90;Styck
+205;Falukorv;39,90;Styck
+206;Fläskfärs;99,90;Kg
+207;Räkor;189,90;Kg
+208;Kycklingfärs;109,90;Kg
+209;Varmkorv;34,90;Styck
+210;Lövbiff;249,90;Kg
+211;Sejfilé;139,90;Kg
+212;Salami;39,90;Styck
+213;Skinka;34,90;Styck
+214;Högrev;169,90;Kg
+215;Makrill;129,90;Kg
+216;Chorizo;42,90;Styck
+217;Kassler;89,90;Kg
+218;Hamburgare;59,90;Styck
+219;Kycklingvingar;79,90;Kg
+220;Tonfisk;24,90;Styck
+221;Rostbiff;199,90;Kg
+222;Leverpastej;29,90;Styck
+223;Kalkonpålägg;36,90;Styck
+224;Schnitzel;139,90;Kg
+225;Köttbullar;69,90;Styck
+226;Pulled pork;119,90;Kg
+227;Grillkorv;44,90;Styck
+228;Lammfärs;159,90;Kg
+229;Sill;29,90;Styck
+230;Prosciutto;49,90;Styck
+231;Oxfilé;449,90;Kg
+232;Kycklingklubbor;69,90;Kg
+233;Fläskkotlett;99,90;Kg
+234;Laxportioner;79,90;Styck
+235;Prinskorv;39,90;Styck
+236;Kebabkött;89,90;Styck
+237;Kräftstjärtar;49,90;Styck
+238;Kycklingkorv;36,90;Styck
+239;Revbensspjäll;119,90;Kg
+240;Pancetta;44,90;Styck
+241;Fryst pizza;44,90;Styck
+242;Pommes frites;36,90;Styck
+243;Fiskpinnar;39,90;Styck
+244;Frysta ärtor;24,90;Styck
+245;Frysta blåbär;49,90;Styck
+246;Vaniljglass;39,90;Styck
+247;Fryst broccoli;29,90;Styck
+248;Kycklingnuggets;49,90;Styck
+249;Frysta hallon;54,90;Styck
+250;Lasagne;44,90;Styck
+251;Pyttipanna;39,90;Styck
+252;Frysta jordgubbar;49,90;Styck
+253;Wokgrönsaker;34,90;Styck
+254;Panerad fisk;49,90;Styck
+255;Kanelbullar;39,90;Styck
+256;Fryst spenat;24,90;Styck
+257;Hamburgare frysta;69,90;Styck
+258;Vitlöksbröd;29,90;Styck
+259;Fryst mango;49,90;Styck
+260;Köttbullar frysta;59,90;Styck
+261;Chips;29,90;Styck
+262;Popcorn;24,90;Styck
+263;Lösgodis;99,90;Kg
+264;Jordnötter;24,90;Styck
+265;Gelégodis;19,90;Styck
+266;Mörk choklad;29,90;Styck
+267;Kexchoklad;12,90;Styck
+268;Nachochips;27,90;Styck
+269;Cashewnötter;39,90;Styck
+270;Lakrits;22,90;Styck
+271;Cookies;29,90;Styck
+272;Ostbågar;28,90;Styck
+273;Mandel;34,90;Styck
+274;Proteinbar;24,90;Styck
+275;Marshmallows;22,90;Styck
+276;Digestivekex;26,90;Styck
+277;Russin;19,90;Styck
+278;Chokladkakor;32,90;Styck
+279;Riskakor;19,90;Styck
+280;Tuggummi;14,90;Styck
+281;Cola Zero;24,90;Styck
+282;Fanta;24,90;Styck
+283;Sprite;24,90;Styck
+284;Energidryck;21,90;Styck
+285;Äppeljuice;27,90;Styck
+286;Multivitaminjuice;29,90;Styck
+287;Kolsyrat vatten;16,90;Styck
+288;Iste;24,90;Styck
+289;Saft;32,90;Styck
+290;Tonic Water;19,90;Styck
+291;Ingefärsöl;22,90;Styck
+292;Smoothie;29,90;Styck
+293;Kokosvatten;27,90;Styck
+294;Citronläsk;21,90;Styck
+295;Druvjuice;29,90;Styck
+296;Tranbärsjuice;31,90;Styck
+297;Tomatjuice;26,90;Styck
+298;Hallonsaft;34,90;Styck
+299;Limevatten;18,90;Styck
+300;Diskmedel;32,90;Styck
+301;Toalettpapper;59,90;Styck
+302;Hushållspapper;44,90;Styck
+303;Tvättmedel;89,90;Styck
+304;Sköljmedel;39,90;Styck
+305;Soppåsar;29,90;Styck
+306;Diskmaskinstabletter;79,90;Styck
+307;Allrengöring;34,90;Styck
+308;Fönsterputs;29,90;Styck
+309;Kökssvampar;19,90;Styck
+310;Bakplåtspapper;24,90;Styck
+311;Aluminiumfolie;29,90;Styck
+312;Plastfolie;24,90;Styck
+313;Fryspåsar;26,90;Styck
+314;Servetter;22,90;Styck
+315;Tändstickor;14,90;Styck
+316;Värmeljus;39,90;Styck
+317;Gummihandskar;29,90;Styck
+318;Mikrofiberdukar;34,90;Styck
+319;WC-rengöring;32,90;Styck
+320;Tandkräm;27,90;Styck
+321;Tandborste;24,90;Styck
+322;Schampo;39,90;Styck
+323;Balsam;39,90;Styck
+324;Duschgel;34,90;Styck
+325;Handtvål;24,90;Styck
+326;Deodorant;32,90;Styck
+327;Rakhyvlar;49,90;Styck
+328;Rakgel;39,90;Styck
+329;Bomullspinnar;19,90;Styck
+330;Bomullsrondeller;22,90;Styck
+331;Handkräm;34,90;Styck
+332;Body lotion;49,90;Styck
+333;Hårgel;34,90;Styck
+334;Hårspray;39,90;Styck
+335;Munskölj;44,90;Styck
+336;Tandtråd;29,90;Styck
+337;Plåster;34,90;Styck
+338;Näsdukar;19,90;Styck
+339;Våtservetter;29,90;Styck
+340;Solkräm;89,90;Styck
+341;Handdesinfektion;29,90;Styck
+342;Läppbalsam;24,90;Styck
+343;Ansiktskräm;69,90;Styck
+344;Ansiktstvätt;54,90;Styck
+345;Rakhyvel engångs;29,90;Styck
+346;Nagellacksremover;34,90;Styck
+347;Hårborste;49,90;Styck
+348;Trosskydd;34,90;Styck
+349;Bindor;39,90;Styck
+350;Tamponger;44,90;Styck
+351;Bärkasse;6,90;Styck
+352;Papperskasse;8,90;Styck
+353;Hundmat;79,90;Styck
+354;Kattmat;69,90;Styck
+355;Hundgodis;39,90;Styck
+356;Kattgodis;34,90;Styck
+357;Kattsand;89,90;Styck
+358;Hundbajspåsar;29,90;Styck
+359;Fågelmat;49,90;Styck
+360;Diskborste;24,90;Styck
+361;Glödlampa;39,90;Styck
+362;Batterier AA;49,90;Styck
+363;Batterier AAA;49,90;Styck
+364;Tejp;24,90;Styck
+365;Superlim;34,90;Styck
+366;Anteckningsblock;29,90;Styck
+367;Kulspetspennor;24,90;Styck
+368;Blyertspennor;19,90;Styck
+369;Suddgummi;12,90;Styck
+370;Kuvert;29,90;Styck
+371;Bakpulver;14,90;Styck
+372;Vaniljsocker;16,90;Styck
+373;Kakao;34,90;Styck
+374;Honung;49,90;Styck
+375;Jordnötssmör;39,90;Styck
+376;Sylt jordgubb;34,90;Styck
+377;Marmelad apelsin;32,90;Styck
+378;Nutella;49,90;Styck
+379;Senap;24,90;Styck
+380;Ketchup;29,90;Styck
+381;Majonnäs;32,90;Styck
+382;Sojasås;29,90;Styck
+383;Olivolja;89,90;Styck
+384;Rapsolja;49,90;Styck
+385;Vinäger;24,90;Styck
+386;Salt;16,90;Styck
+387;Svartpeppar;29,90;Styck
+388;Paprikapulver;24,90;Styck
+389;Oregano;22,90;Styck
+390;Kanel;24,90;Styck
+391;Tacokrydda;14,90;Styck
+392;Tacosås;24,90;Styck
+393;Tortillachips;29,90;Styck
+394;Salsa;27,90;Styck
+395;Guacamole;34,90;Styck
+396;Pesto;39,90;Styck
+397;Pastasås;29,90;Styck
+398;Buljong;24,90;Styck
+399;Currypasta;34,90;Styck
+400;Kokosgrädde;24,90;Styck

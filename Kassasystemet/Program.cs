@@ -6,14 +6,7 @@ using System.Reflection.Metadata;
 namespace Kassasystemet
 {
     internal class Program
-    {/*
-        List<string> Nykundlista = new List<string>
-        {
-            id,
-            vara,
-            pris,
-            enhet
-        };*/
+    {
         static void Main(string[] args)
         {
             while (true)
@@ -33,8 +26,9 @@ namespace Kassasystemet
                         break;
 
                     case 3:
-                        break;
+                        
                         Environment.Exit(0);
+                        break;
 
                     default:
                         break;
@@ -46,7 +40,7 @@ namespace Kassasystemet
 
             }
 
-
+            /*
             Console.WriteLine("Välkommen till Kassan");
 
                 string[] rader = File.ReadAllLines("produkter.txt");
@@ -95,7 +89,7 @@ namespace Kassasystemet
                         Console.WriteLine("ogiltig input");
                         continue;
                 }
-            
+            */
         }
     }
 }
