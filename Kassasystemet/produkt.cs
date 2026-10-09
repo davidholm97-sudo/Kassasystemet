@@ -6,10 +6,10 @@ namespace Kassasystemet
 {
     public class Produkt
     {
-        public string Id;
-        public string Namn;
-        public decimal Pris;
-        public string Enhet;
+        public string Id { get; private set; }
+        public string Namn { get; set; }
+        public decimal Pris {  get; set; }
+        public string Enhet { get; set; }
 
 
         public Produkt(string id, string namn, decimal pris, string enhet)

@@ -7,9 +7,6 @@ namespace Kassasystemet
 {
     internal class ProduktRegister
     {
-
-       
-
         public static Dictionary<string, Produkt> LasinProdukter()
         {
             string filväg = "produkter.txt";

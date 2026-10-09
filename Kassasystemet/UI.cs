@@ -7,10 +7,6 @@ namespace Kassasystemet
     internal class UI
     {
         static Dictionary<string, Produkt> produktregister = ProduktRegister.LasinProdukter();
-        public UI()
-        {
-
-        }
         public static void Visameny()
         {
             Console.WriteLine("""
