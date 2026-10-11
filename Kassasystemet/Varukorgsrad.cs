@@ -23,8 +23,5 @@ namespace Kassasystemet
             Enhetspris = produkt.Pris;
         }
 
-
-
     }
-
 }

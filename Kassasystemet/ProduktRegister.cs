@@ -19,8 +19,11 @@ namespace Kassasystemet
                     {
                         string id = delar[0];
                         string namn = delar[1];
-                        decimal pris;
-                        decimal.TryParse(delar[2],out pris);
+                        if (!decimal.TryParse(delar[2], out decimal pris) || pris <= 0)
+                        {
+                            Console.WriteLine($"ogiltigt pris för produkt {delar[0]}");
+                            continue;
+                        }
                         string enhet = delar[3];
                         Produkt produkt = new Produkt(id, namn, pris, enhet);
 

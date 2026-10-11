@@ -4,9 +4,13 @@ using System.Text;
 
 namespace Kassasystemet
 {
-    internal class UI
+    internal class UI // här finns inmatning och utskrifter
     {
         static Dictionary<string, Produkt> produktregister = ProduktRegister.LasinProdukter();
+        public UI()
+        {
+
+        }
         public static void Visameny()
         {
             Console.WriteLine("""
@@ -34,21 +38,8 @@ namespace Kassasystemet
                     return false;
                 }
                 else
-                    Console.WriteLine("tack för din tid");
+                    Console.WriteLine("felaktig input");
             }
-        }
-        public static string LasaID()
-        {
-            while (true)
-            {
-                string id = Console.ReadLine().Trim().ToLower();
-                if (!string.IsNullOrWhiteSpace(id))
-                    return id;
-                else
-                Console.WriteLine("felaktig input eller produkt finns ej");
-            }
-            
-            
         }
 
         public static int LasaMenyVal()
@@ -75,50 +66,64 @@ namespace Kassasystemet
                 Console.WriteLine("Felaktig input, ange ett positivt tal.");
             }
         }
-        public static void Kvitto(List<Varukorgsrad> varukorg, decimal total)
+        public static void Kvitto(List<Varukorgsrad> varukorg, decimal brutto, decimal netto)
         {
-
             Console.WriteLine($"""
                 ______________________________Davids Livs_____________________________
                 Vara            Antal     Pris     Summa
                 """);
-
-            foreach (Varukorgsrad rad in varukorg)
+            var sortByName = varukorg
+            .OrderBy(sort => sort.Produkt.Namn);
+            foreach (Varukorgsrad rad in sortByName)
             {
+                
                 Console.WriteLine($"{rad.Produkt.Namn} - {rad.Antal} {rad.Produkt.Enhet} - {rad.RadPris} kr");
             }
 
-            Console.WriteLine("""
+            Console.WriteLine($"""
+            Nettopris:                              {netto}
+            Totalpris:                              {brutto}
             ----------------------------------------------------------------------
                                         Tack för ditt köp
             ----------------------------------------------------------------------
             """);
         }
-
-        public static void StartaNyKund()
+        public static string LasaID()
         {
-            List<Varukorgsrad> varukorgen = new List<Varukorgsrad>(); // fyll varukorgen
-            
             while (true)
             {
                 Console.WriteLine("Ange varans produkt-ID:");
+                string id = Console.ReadLine().Trim().ToLower();
+                if (string.IsNullOrWhiteSpace(id))
+                {
+                    continue;
+                }
+                if (!produktregister.ContainsKey(id))
+                {
+                    Console.WriteLine("produkten finns inte");
+                    continue;
+                }
+                return id;
+
+            }
+        }
+
+        public static void StartaNyKund()
+        {
+            Kundberakning kundberakning = new Kundberakning();
+            while (true)
+            {
                 string id = LasaID();
                 string enhet = produktregister[id].Enhet;
+
                 Console.WriteLine($"Du sökte efter id: {id}, ");
-
-
                 Console.WriteLine($"Tillagt: {produktregister[id].Namn}, hur många {enhet} vill du ha?");
                 decimal antal = LasaAntal(); // läser in antal, antingen styck eller kg-vis 
 
-
-
-
-                Varukorgsrad rad = new Varukorgsrad(produktregister[id], antal);
+                Varukorgsrad rad = kundberakning.LaggTill(produktregister[id], antal);
                 Console.WriteLine($"Pris per enhet: {produktregister[id].Pris}");
                 Console.WriteLine($"Radpris: {rad.RadPris} kr");
-                varukorgen.Add(rad);
                 bool fortsätta = Nyvara();
-
 
                 if (fortsätta == true)
                 {
@@ -126,8 +131,9 @@ namespace Kassasystemet
                 }
                 else
                 {
-                    decimal total = Beräkningar.BeraknaTotal(varukorgen);
-                    Kvitto(varukorgen, total);
+                    decimal brutto = kundberakning.BeraknaTotalPris();
+                    decimal netto = kundberakning.BeraknaNettoPris();
+                    Kvitto(kundberakning.Hamtarader(), brutto, netto);
                     break;
                 }
                     
