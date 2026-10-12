@@ -22,7 +22,6 @@ namespace Kassasystemet
                     Val:
                     """);
         }
-
         public static bool Nyvara()
         {
             while (true)
@@ -38,10 +37,9 @@ namespace Kassasystemet
                     return false;
                 }
                 else
-                    Console.WriteLine("felaktig input");
+                    Console.WriteLine("Felaktig input");
             }
         }
-
         public static int LasaMenyVal()
         {
             while (true)
@@ -50,7 +48,7 @@ namespace Kassasystemet
                 {
                     return val;
                 }
-                Console.WriteLine("felaktig input");
+                Console.WriteLine("Felaktig input");
             }
         }
 
@@ -66,27 +64,36 @@ namespace Kassasystemet
                 Console.WriteLine("Felaktig input, ange ett positivt tal.");
             }
         }
-        public static void Kvitto(List<Varukorgsrad> varukorg, decimal brutto, decimal netto)
+        public static void SparaKvitto(string kvittotext)
         {
-            Console.WriteLine($"""
+            File.AppendAllText("Reciepts.txt", kvittotext);
+            Console.WriteLine(Path.GetFullPath("Receipts.txt"));
+        }
+        public static string Kvitto(List<Varukorgsrad> varukorg, decimal brutto, decimal netto)
+        {
+            string kvitto = "";
+            DateTime kvittotid = DateTime.Now;
+            kvitto += ($"""
                 ______________________________Davids Livs_____________________________
-                Vara            Antal     Pris     Summa
-                """);
+                Vara                        Antal           Pris     
+                """ + Environment.NewLine);
             var sortByName = varukorg
             .OrderBy(sort => sort.Produkt.Namn);
             foreach (Varukorgsrad rad in sortByName)
             {
-                
-                Console.WriteLine($"{rad.Produkt.Namn} - {rad.Antal} {rad.Produkt.Enhet} - {rad.RadPris} kr");
+                kvitto += ($"{rad.Produkt.Namn, -18} - {rad.Antal,8} {rad.Produkt.Enhet,6}   - {rad.RadPris,10:F2} kr" + Environment.NewLine);
+
             }
 
-            Console.WriteLine($"""
-            Nettopris:                              {netto}
-            Totalpris:                              {brutto}
+            kvitto +=($"""
+            Nettopris:                                  {netto:F2}kr
+            Totalpris:                                  {brutto:F2}kr
+            Tidpunkt:                                   {kvittotid:yyyy-MM-dd HH:mm}
             ----------------------------------------------------------------------
                                         Tack för ditt köp
             ----------------------------------------------------------------------
-            """);
+            """ + Environment.NewLine); // skriver ut netto brutto med två decimaler
+            return kvitto;
         }
         public static string LasaID()
         {
@@ -133,7 +140,9 @@ namespace Kassasystemet
                 {
                     decimal brutto = kundberakning.BeraknaTotalPris();
                     decimal netto = kundberakning.BeraknaNettoPris();
-                    Kvitto(kundberakning.Hamtarader(), brutto, netto);
+                    string kvittotext = Kvitto(kundberakning.Hamtarader(), brutto, netto);
+                    Console.WriteLine(kvittotext);
+                    SparaKvitto(kvittotext);
                     break;
                 }
                     
