@@ -8,7 +8,7 @@ namespace Kassasystemet
     {
         public Produkt Produkt { get; }
         public decimal Antal {  get; }
-        public decimal Enhetspris { get; }
+        public decimal Enhetspris => Produkt.Pris;
         public decimal RadPris => Enhetspris * Antal;
 
         public Varukorgsrad(Produkt produkt, decimal antal)
@@ -20,8 +20,6 @@ namespace Kassasystemet
                 throw new ArgumentException("antalen måste vara positivt", nameof(antal));
             Produkt = produkt;
             Antal = antal;
-            Enhetspris = produkt.Pris;
         }
-
     }
 }

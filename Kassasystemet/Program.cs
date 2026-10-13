@@ -22,7 +22,8 @@ namespace Kassasystemet
                         break;
 
                     case 2:
-                        /*Admin.VisaAdmin();*/
+                        Admin.Admin_Visameny();
+                        //Admin.StartaAdmin();
                         break;
 
                     case 3:
@@ -34,7 +35,6 @@ namespace Kassasystemet
                         break;
 
                 }
-
             }
         }
     }

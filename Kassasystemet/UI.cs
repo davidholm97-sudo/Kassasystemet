@@ -68,7 +68,7 @@ namespace Kassasystemet
         {
             string filnamn = $"RECEIPT_{DateTime.Now: yyyyMMdd}.txt";// vi skapar nya filer baserat på dag. som en "dagskassa" ish 
             File.AppendAllText(filnamn, kvittotext);
-            Console.WriteLine(Path.GetFullPath("Receipts.txt"));
+            Console.WriteLine(Path.GetFullPath("Receipts.txt")); // ta bort, söker fram vart receipts landar
         }
         public static string Kvitto(List<Varukorgsrad> varukorg, decimal brutto, decimal netto)
         {
