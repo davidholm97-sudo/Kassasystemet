@@ -26,15 +26,15 @@ namespace Kassasystemet
         {
             while (true)
             {
-                Console.Write("Ska fler varor skall läggas till? (ja/Nej): ");
-                string fortsätta = Console.ReadLine().ToLower().Trim();
-                if (fortsätta == "ja")
-                {
-                    return true;
-                }
-                else if (fortsätta == "nej")
+                Console.WriteLine("PAY för att avsluta, ENTER för att lägga till fler produkter");
+                string fortsätta = Console.ReadLine().ToUpper().Trim();
+                if (fortsätta == "PAY")
                 {
                     return false;
+                }
+                else if (fortsätta == "")
+                {
+                    return true;
                 }
                 else
                     Console.WriteLine("Felaktig input");
@@ -66,7 +66,8 @@ namespace Kassasystemet
         }
         public static void SparaKvitto(string kvittotext)
         {
-            File.AppendAllText("Reciepts.txt", kvittotext);
+            string filnamn = $"RECEIPT_{DateTime.Now: yyyyMMdd}.txt";// vi skapar nya filer baserat på dag. som en "dagskassa" ish 
+            File.AppendAllText(filnamn, kvittotext);
             Console.WriteLine(Path.GetFullPath("Receipts.txt"));
         }
         public static string Kvitto(List<Varukorgsrad> varukorg, decimal brutto, decimal netto)
@@ -76,19 +77,22 @@ namespace Kassasystemet
             kvitto += ($"""
                 ______________________________Davids Livs_____________________________
                 Vara                        Antal           Pris     
+
                 """ + Environment.NewLine);
             var sortByName = varukorg
-            .OrderBy(sort => sort.Produkt.Namn);
+            .OrderBy(sort => sort.Produkt.Namn); // sortering för skoj 
             foreach (Varukorgsrad rad in sortByName)
             {
-                kvitto += ($"{rad.Produkt.Namn, -18} - {rad.Antal,8} {rad.Produkt.Enhet,6}   - {rad.RadPris,10:F2} kr" + Environment.NewLine);
+                kvitto += ($"\n{rad.Produkt.Namn, -18} - {rad.Antal,8} {rad.Produkt.Enhet,6}   - {rad.RadPris,9:F2} kr" + Environment.NewLine);
 
             }
 
             kvitto +=($"""
+
             Nettopris:                                  {netto:F2}kr
             Totalpris:                                  {brutto:F2}kr
             Tidpunkt:                                   {kvittotid:yyyy-MM-dd HH:mm}
+
             ----------------------------------------------------------------------
                                         Tack för ditt köp
             ----------------------------------------------------------------------
