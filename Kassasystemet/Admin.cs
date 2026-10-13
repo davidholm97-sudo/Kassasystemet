@@ -19,21 +19,46 @@ namespace Kassasystemet
         }
         public static void StartaAdmin(Dictionary<string, Produkt> produktregister)
         {
-            int menyVal = UI.LasaMenyVal();
-            switch (menyVal)
+            while (true)
             {
-                case 1:
+                Admin_Visameny();
+                int menyVal = UI.LasaMenyVal();
+                switch (menyVal)
+                {
+                    case 1:
 
-                    break;
+                        break;
 
-                case 2:
-                    break;
+                    case 2:
 
-                case 3:
-                    break;
 
-                default:
-                    break;
+                        string id = UI.LasaID();
+                        Produkt produkt = produktregister[id];
+                        string enhet = produktregister[id].Enhet;
+
+                        Console.WriteLine($"Du sökte efter id: {id}, ");
+                        Console.WriteLine($"Du vill ändra: {produktregister[id].Namn} \nSkriv in nya namnet för produkten");
+                        string andraProduktNamn = produktregister[id].Namn;
+                        decimal andraProduktPris = produktregister[id].Pris;
+
+                        Console.WriteLine("Ange det nya namnet, eller klicka ENTER för att ändra pris");
+                        andraProduktNamn = Console.ReadLine().Trim();
+                        if (andraProduktNamn == "")
+                            continue;
+
+                            produkt.AndraNamn(andraProduktNamn);
+                        produkt.AndraPris(andraProduktPris);
+
+                        break;
+
+                    case 3:
+                        Environment.Exit(0);
+                        break;
+
+                    default:
+                        Console.WriteLine("felaktig input, testa igen");
+                        continue;
+                }
             }
         }
     }

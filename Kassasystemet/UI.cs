@@ -6,7 +6,7 @@ namespace Kassasystemet
 {
     internal class UI // här finns inmatning och utskrifter
     {
-        static Dictionary<string, Produkt> produktregister = ProduktRegister.LasinProdukter();
+        public static Dictionary<string, Produkt> produktregister = ProduktRegister.LasinProdukter();
         public UI()
         {
 
@@ -132,7 +132,7 @@ namespace Kassasystemet
                 decimal antal = LasaAntal(); // läser in antal, antingen styck eller kg-vis 
 
                 Varukorgsrad rad = kundberakning.LaggTill(produktregister[id], antal);
-                Console.WriteLine($"Pris per enhet: {produktregister[id].Pris}");
+                Console.WriteLine($"Pris per {enhet}: {produktregister[id].Pris}");
                 Console.WriteLine($"Radpris: {rad.RadPris} kr");
                 bool fortsätta = Nyvara();
 

@@ -22,12 +22,10 @@ namespace Kassasystemet
                         break;
 
                     case 2:
-                        Admin.Admin_Visameny();
-                        //Admin.StartaAdmin();
+                        Admin.StartaAdmin(UI.produktregister);
                         break;
 
                     case 3:
-                        
                         Environment.Exit(0);
                         break;
 
