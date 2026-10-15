@@ -16,8 +16,8 @@ namespace Kassasystemet
             if (produkt is null)
                 throw new ArgumentNullException(nameof(produkt));//om null kasta skiten
 
-            if (antal <= 0)
-                throw new ArgumentException("antalen måste vara positivt", nameof(antal));
+            if (antal < 0)
+                throw new ArgumentException("antalen måste vara större än noll", nameof(antal));
             Produkt = produkt;
             Antal = antal;
         }

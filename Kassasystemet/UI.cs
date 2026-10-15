@@ -22,6 +22,17 @@ namespace Kassasystemet
                     Val:
                     """);
         }
+        public static void Admin_Visameny()
+        {
+            Console.WriteLine("""
+                    ==============Admin-Meny=============
+                    [1] Lägg till en produkt
+                    [2] Ändra befintlig produkt
+                    [3] Avsluta & återgå till huvudmenyn
+
+                    Val:
+                    """);
+        }
         public static bool Nyvara()
         {
             while (true)
@@ -68,10 +79,10 @@ namespace Kassasystemet
         {
             string filnamn = $"RECEIPT_{DateTime.Now: yyyyMMdd}.txt";// vi skapar nya filer baserat på dag. som en "dagskassa" ish 
             File.AppendAllText(filnamn, kvittotext);
-            Console.WriteLine(Path.GetFullPath("Receipts.txt")); // ta bort, söker fram vart receipts landar
+            Console.WriteLine(Path.GetFullPath($"\nRECEIPT_{DateTime.Now: yyyyMMdd}.txt")); // ta bort, söker fram vart receipts landar
         }
         public static string Kvitto(List<Varukorgsrad> varukorg, decimal brutto, decimal netto)
-        {
+        { 
             string kvitto = "";
             DateTime kvittotid = DateTime.Now;
             kvitto += ($"""
@@ -80,11 +91,10 @@ namespace Kassasystemet
 
                 """ + Environment.NewLine);
             var sortByName = varukorg
-            .OrderBy(sort => sort.Produkt.Namn); // sortering för skoj 
+            .OrderBy(sort => sort.RadPris); // sortering för skoj 
             foreach (Varukorgsrad rad in sortByName)
             {
                 kvitto += ($"\n{rad.Produkt.Namn, -18} - {rad.Antal,8} {rad.Produkt.Enhet,6}   - {rad.RadPris,9:F2} kr" + Environment.NewLine);
-
             }
 
             kvitto +=($"""

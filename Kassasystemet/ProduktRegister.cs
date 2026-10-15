@@ -9,7 +9,7 @@ namespace Kassasystemet
     {
         public static Dictionary<string, Produkt> LasinProdukter()
         {
-            string filväg = "produkter.txt";
+            string filväg = ".\\produkter.txt";
             Dictionary<string, Produkt> produktregister = new Dictionary<string, Produkt>();
             if (File.Exists(filväg))
             foreach (var rad in File.ReadLines(filväg))

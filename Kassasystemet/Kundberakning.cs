@@ -16,7 +16,7 @@ namespace Kassasystemet
             foreach (Varukorgsrad rad in varukorgen)
                 brutto += rad.RadPris;
 
-            return brutto * 1.25m;
+            return brutto;
         }
         public decimal BeraknaNettoPris()
         {
@@ -25,7 +25,7 @@ namespace Kassasystemet
             foreach (Varukorgsrad rad in varukorgen)
                 netto += rad.RadPris;
 
-            return netto;
+            return netto / 1.25m;
         }
         public Varukorgsrad LaggTill(Produkt produkt, decimal antal)
         {
