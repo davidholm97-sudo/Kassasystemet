@@ -17,7 +17,7 @@ namespace Kassasystemet
                     ==============Meny=============
                     [1] Ny Kund
                     [2] Admin
-                    [3] Avsluta
+                    [0] Avsluta
 
                     Val:
                     """);
@@ -28,7 +28,7 @@ namespace Kassasystemet
                     ==============Admin-Meny=============
                     [1] Lägg till en produkt
                     [2] Ändra befintlig produkt
-                    [3] Avsluta & återgå till huvudmenyn
+                    [0] Avsluta & återgå till huvudmenyn
 
                     Val:
                     """);
@@ -75,12 +75,7 @@ namespace Kassasystemet
                 Console.WriteLine("Felaktig input, ange ett positivt tal.");
             }
         }
-        public static void SparaKvitto(string kvittotext)
-        {
-            string filnamn = $"RECEIPT_{DateTime.Now: yyyyMMdd}.txt";// vi skapar nya filer baserat på dag. som en "dagskassa" ish 
-            File.AppendAllText(filnamn, kvittotext);
-            Console.WriteLine(Path.GetFullPath($"\nRECEIPT_{DateTime.Now: yyyyMMdd}.txt")); // ta bort, söker fram vart receipts landar
-        }
+        
         public static string Kvitto(List<Varukorgsrad> varukorg, decimal brutto, decimal netto)
         { 
             string kvitto = "";
@@ -100,7 +95,7 @@ namespace Kassasystemet
             kvitto +=($"""
 
             Nettopris:                                  {netto:F2}kr
-            Totalpris:                                  {brutto:F2}kr
+            Totalpris ikl. moms:                        {brutto:F2}kr
             Tidpunkt:                                   {kvittotid:yyyy-MM-dd HH:mm}
 
             ----------------------------------------------------------------------
@@ -132,6 +127,7 @@ namespace Kassasystemet
         public static void StartaNyKund()
         {
             Kundberakning kundberakning = new Kundberakning();
+            IFilKvitto filkvitto = new FilKvitto();
             while (true)
             {
                 string id = LasaID();
@@ -156,7 +152,7 @@ namespace Kassasystemet
                     decimal netto = kundberakning.BeraknaNettoPris();
                     string kvittotext = Kvitto(kundberakning.Hamtarader(), brutto, netto);
                     Console.WriteLine(kvittotext);
-                    SparaKvitto(kvittotext);
+                    filkvitto.SparaKvitto(kvittotext);
                     break;
                 }
                     

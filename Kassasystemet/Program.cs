@@ -25,7 +25,7 @@ namespace Kassasystemet
                         Admin.StartaAdmin(UI.produktregister);
                         break;
 
-                    case 3:
+                    case 0:
                         Environment.Exit(0);
                         break;
 

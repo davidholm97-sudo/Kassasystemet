@@ -50,9 +50,9 @@ namespace Kassasystemet
                         Produkt nyProdukt = new Produkt(nyttId, namn, pris, enhet);
                         produktregister.Add(nyttId, nyProdukt);
                         Console.WriteLine($"Produkten {namn} har lagts till i  kassasystemet. ");
-                        File.WriteAllLines(sokFilvag, produktregister.Values.Select(produkt => $"{produkt.Id};{produkt.Namn};{produkt.Pris};{produkt.Enhet}"));
+                        File.AppendAllLines(sokFilvag, produktregister.Values.Select(produkt => $"{produkt.Id};{produkt.Namn};{produkt.Pris};{produkt.Enhet}"));
                         break;
-
+                        
                     case 2:
 
                         string idsök = UI.LasaID();
@@ -86,11 +86,10 @@ namespace Kassasystemet
                                 Console.WriteLine("Ogiltigt pris");
 
                         }
-                        File.WriteAllLines(sokFilvag, produktregister.Values.Select(produktregister => $"{produkt.Id};{produkt.Namn};{produkt.Pris};{produkt.Enhet}"));
-
+                        File.WriteAllLines(sokFilvag, produktregister.Values.Select(p => $"{p.Id};{p.Namn};{p.Pris};{p.Enhet}"));
+                        
                         break;
-
-                    case 3:
+                    case 0:
                         return;
 
                     default:
