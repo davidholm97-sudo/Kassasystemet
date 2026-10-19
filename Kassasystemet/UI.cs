@@ -7,6 +7,7 @@ namespace Kassasystemet
     internal class UI // här finns inmatning och utskrifter
     {
         public static Dictionary<string, Produkt> produktregister = ProduktRegister.LasinProdukter();
+        public static List<Kampanj> kampanjer = new List<Kampanj>();
         public UI()
         {
 
@@ -28,6 +29,18 @@ namespace Kassasystemet
                     ==============Admin-Meny=============
                     [1] Lägg till en produkt
                     [2] Ändra befintlig produkt
+                    [3] Lägg till en kampanj
+                    [0] Avsluta & återgå till huvudmenyn
+
+                    Val:
+                    """);
+        }
+        public static void Admin_KampanjMeny()
+        {
+            Console.WriteLine("""
+                    ==============Kampanjmeny=============
+                    [1] lägg till procentkampanj
+                    [2] lägg till fast kampanj
                     [0] Avsluta & återgå till huvudmenyn
 
                     Val:

@@ -22,7 +22,7 @@ namespace Kassasystemet
                         break;
 
                     case 2:
-                        Admin.StartaAdmin(UI.produktregister);
+                        Admin.StartaAdmin(UI.produktregister, UI.kampanjer);
                         break;
 
                     case 0:

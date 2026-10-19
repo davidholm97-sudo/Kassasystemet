@@ -7,13 +7,14 @@ namespace Kassasystemet
     internal class Admin
     {
        
-        public static void StartaAdmin(Dictionary<string, Produkt> produktregister)
+        public static void StartaAdmin(Dictionary<string, Produkt> produktregister, List<Kampanj> kampanjer)
         {
             while (true)
             {
                 UI.Admin_Visameny();
                 int menyVal = UI.LasaMenyVal();
                 string sokFilvag = ".\\produkter.txt";
+
                 switch (menyVal)
                 {
 
@@ -89,6 +90,52 @@ namespace Kassasystemet
                         File.WriteAllLines(sokFilvag, produktregister.Values.Select(p => $"{p.Id};{p.Namn};{p.Pris};{p.Enhet}"));
                         
                         break;
+
+                    case 3:
+                        while (true)
+                        {
+                            UI.Admin_KampanjMeny();
+                            int menyval_ = UI.LasaMenyVal();
+                            switch (menyval_)
+                            {
+                                case 1:
+                                    string idsök_ = UI.LasaID();
+                                    Produkt produkt_ = produktregister[idsök_];
+                                    decimal rabattprocent;
+                                    Console.WriteLine($"Du sökte efter id: {produkt_.Namn}, \npriset är {produkt_.Pris} & det är {produkt_.Enhet} pris. ");
+                                    Console.WriteLine("Hur många procent rabatt vill du ha i denna kampanj? ");
+                                    while (true)
+                                    {
+                                        if (decimal.TryParse(Console.ReadLine().Trim(), out rabattprocent) && rabattprocent > 0 && rabattprocent < 100)
+                                            break;
+                                        else Console.WriteLine("ange en rabattprocent mellan 1-99");
+                                    }
+                                    DateTime startdatum = DateTime.Today;
+                                    DateTime slutdatum;
+                                    Console.WriteLine("Ange ett slutdatum för kampanjen, följ formatet yyyy-mm-dd: ");
+                                    while (true)
+                                    {
+                                        if (DateTime.TryParse(Console.ReadLine(), out slutdatum) && slutdatum > startdatum)
+                                            break;
+                                        else Console.WriteLine("Oglitigt datum");
+                                    }
+                                        
+                                    break;
+
+
+                                case 2:
+
+                                    break;
+
+
+                                case 0:
+                                    return;
+
+                            }
+                        }
+
+
+
                     case 0:
                         return;
 

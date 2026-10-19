@@ -26,10 +26,8 @@ namespace Kassasystemet
             DateTime dagensDatum = DateTime.Today;
             return dagensDatum >= Startdatum && dagensDatum <= Slutdatum;
         }
-        public abstract decimal Kampanjberakningar()
-        {
+        public abstract decimal Kampanjberakningar();
 
-        }
     }
 }
 
