@@ -119,12 +119,33 @@ namespace Kassasystemet
                                             break;
                                         else Console.WriteLine("Oglitigt datum");
                                     }
-                                        
+                                        KampanjProcent nyKampanj = new KampanjProcent(produkt_, startdatum, slutdatum, rabattprocent);
+                                        kampanjer.Add(nyKampanj);
                                     break;
 
-
                                 case 2:
-
+                                    string idSök_ = UI.LasaID();
+                                    Produkt produktfast = produktregister[idSök_];
+                                    decimal rabattfast;
+                                    Console.WriteLine($"Du sökte efter id: {produktfast.Namn}, \npriset är {produktfast.Pris} & det är {produktfast.Enhet} pris. ");
+                                    Console.WriteLine("Hur många kronor rabatt vill du ha i denna kampanj? ");
+                                    while (true)
+                                    {
+                                        if (decimal.TryParse(Console.ReadLine().Trim(), out rabattfast) && rabattfast > 0 && rabattfast < produktfast.Pris)
+                                            break;
+                                        else Console.WriteLine("ange korrekt rabattmängd");
+                                    }
+                                    DateTime startdatum_ = DateTime.Today;
+                                    DateTime slutdatum_;
+                                    Console.WriteLine("Ange ett slutdatum för kampanjen, följ formatet yyyy-mm-dd: ");
+                                    while (true)
+                                    {
+                                        if (DateTime.TryParse(Console.ReadLine(), out slutdatum_) && slutdatum_ > startdatum_)
+                                            break;
+                                        else Console.WriteLine("Oglitigt datum");
+                                    }
+                                    KampanjPris nyKampanj_ = new KampanjPris(produktfast, startdatum_, slutdatum_, rabattfast);
+                                    kampanjer.Add(nyKampanj_);
                                     break;
 
 

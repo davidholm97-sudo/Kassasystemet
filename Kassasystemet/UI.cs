@@ -144,14 +144,28 @@ namespace Kassasystemet
             while (true)
             {
                 string id = LasaID();
+                Produkt produktVal = produktregister[id];
+                decimal enhetsPris = produktVal.Pris;
                 string enhet = produktregister[id].Enhet;
+                foreach (Kampanj item in kampanjer)
+                {
+                    if (item.Produkt_.Id == id && item.AktivKampanj())
+                    {
+                        decimal kampanjPris = item.Kampanjberakningar();
 
+                        if (kampanjPris < enhetsPris)
+                            enhetsPris = kampanjPris;
+                    }
+
+                }
                 Console.WriteLine($"Du sökte efter id: {id}, ");
+                if (enhetsPris < produktVal.Pris)
+                    Console.WriteLine($"aktiv kampanj! pris per {enhet}: {enhetsPris:F2}");
                 Console.WriteLine($"Tillagt: {produktregister[id].Namn}, hur många {enhet} vill du ha?");
                 decimal antal = LasaAntal(); // läser in antal, antingen styck eller kg-vis 
 
-                Varukorgsrad rad = kundberakning.LaggTill(produktregister[id], antal);
-                Console.WriteLine($"Pris per {enhet}: {produktregister[id].Pris}");
+                Varukorgsrad rad = kundberakning.LaggTill(produktregister[id], antal, enhetsPris);
+                Console.WriteLine($"Pris per {enhet}: {enhetsPris}");
                 Console.WriteLine($"Radpris: {rad.RadPris} kr");
                 bool fortsätta = Nyvara();
 

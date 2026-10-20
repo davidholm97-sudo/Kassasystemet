@@ -10,26 +10,34 @@ namespace Kassasystemet
         public static Dictionary<string, Produkt> LasinProdukter()
         {
             string filväg = ".\\produkter.txt";
-            Dictionary<string, Produkt> produktregister = new Dictionary<string, Produkt>();
+            Dictionary<string, Produkt> produktregister =
+                new Dictionary<string, Produkt>();
+
             if (File.Exists(filväg))
-            foreach (var rad in File.ReadLines(filväg))
             {
-                string[] delar = rad.Split(';');
+                foreach (var rad in File.ReadLines(filväg))
+                {
+                    string[] delar = rad.Split(';');
+
                     if (delar.Length >= 4)
                     {
                         string id = delar[0];
                         string namn = delar[1];
+
                         if (!decimal.TryParse(delar[2], out decimal pris) || pris <= 0)
                         {
-                            Console.WriteLine($"ogiltigt pris för produkt {delar[0]}");
+                            Console.WriteLine($"ogiltigt pris för produkt {id}");
                             continue;
                         }
+
                         string enhet = delar[3];
                         Produkt produkt = new Produkt(id, namn, pris, enhet);
 
                         produktregister[id] = produkt;
                     }
+                }
             }
+
             return produktregister;
         }
     }

@@ -27,9 +27,9 @@ namespace Kassasystemet
 
             return netto / 1.25m;
         }
-        public Varukorgsrad LaggTill(Produkt produkt, decimal antal)
+        public Varukorgsrad LaggTill(Produkt produkt, decimal antal, decimal enhetsPris)
         {
-            Varukorgsrad rad = new Varukorgsrad(produkt, antal);
+            Varukorgsrad rad = new Varukorgsrad(produkt, antal, enhetsPris);
             varukorgen.Add(rad);
 
             return rad;
