@@ -9,7 +9,7 @@ namespace Kassasystemet
         public string Id { get; }
         public string Namn { get; private set; }
         public decimal Pris {  get; private set; }
-        public string Enhet { get; }
+        public string Enhet { get; private set; }
 
 
         public Produkt(string id, string namn, decimal pris, string enhet)
@@ -22,7 +22,7 @@ namespace Kassasystemet
 
             AndraPris(pris);
 
-            Enhet = enhet;
+            AndraEnhet(enhet);
 
         }
         public void AndraNamn(string namn)
@@ -37,6 +37,21 @@ namespace Kassasystemet
                 throw new ArgumentException("Priset får inte vara negativt eller noll", nameof(pris));
 
             Pris = pris;
+        }
+        public void AndraEnhet(string enhet)
+        {
+            enhet = enhet.Trim().ToLower();
+
+            if (enhet != "styck" && enhet != "kg")
+                throw new ArgumentException("enheten måste vara Styck eller Kg");
+
+            if (enhet == "styck")
+                Enhet = "Styck";
+
+            if (enhet == "kg")
+            {
+                Enhet = "Kg";
+            }
         }
     }
 }

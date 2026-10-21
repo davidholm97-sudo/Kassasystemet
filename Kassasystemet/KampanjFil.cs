@@ -62,19 +62,21 @@ namespace Kassasystemet
         public static void SparaKampanjer(List<Kampanj> kampanjer)
         {
             string kampanjFilvag_ = "Kampanjfil.txt";
-            KampanjFil.SparaKampanjer(kampanjer);
-            if (kampanj is KampanjProcent procent)
+            List<string> kampanjRader = new List<string>();
+
+            foreach (Kampanj kampanj in kampanjer)
             {
-
+                if (kampanj is KampanjProcent procent)
+                {
+                    kampanjRader.Add($"procentkampanj;{procent.Produkt_.Id};{procent.Rabattprocent};{procent.Startdatum:yyyy-MM-dd};{procent.Slutdatum:yyyy-MM-dd}");
+                }
+                else if (kampanj is KampanjPris fastRabatt)
+                {
+                    kampanjRader.Add($"fastkampanj;{fastRabatt.Produkt_.Id};{fastRabatt.Rabattpris};{fastRabatt.Startdatum:yyyy-MM-dd};{fastRabatt.Slutdatum:yyyy-MM-dd}");
+                }
             }
-            else if (kampanj is KampanjPris fastRabatt)
-            {
 
-            }
-
-
-
-            File.WriteAllLines(kampanjFilvag_,  );
+            File.WriteAllLines(kampanjFilvag_, kampanjRader);
         }
         
     }
