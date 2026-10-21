@@ -78,6 +78,5 @@ namespace Kassasystemet
 
             File.WriteAllLines(kampanjFilvag_, kampanjRader);
         }
-        
     }
 }

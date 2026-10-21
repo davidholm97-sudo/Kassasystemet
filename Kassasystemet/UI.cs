@@ -7,7 +7,7 @@ namespace Kassasystemet
     internal class UI // här finns inmatning och utskrifter
     {
         public static Dictionary<string, Produkt> produktregister = ProduktRegister.LasinProdukter();
-        public static List<Kampanj> kampanjer = new List<Kampanj>();
+        public static List<Kampanj> kampanjer = KampanjFil.LasaKampanj(produktregister);
         public UI()
         {
 

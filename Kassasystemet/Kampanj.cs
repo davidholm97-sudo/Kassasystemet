@@ -28,6 +28,7 @@ namespace Kassasystemet
         }
         public abstract decimal Kampanjberakningar();
 
+
     }
 }
 

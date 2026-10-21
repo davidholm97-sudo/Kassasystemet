@@ -49,7 +49,7 @@ namespace Kassasystemet
 
             string namn = Console.ReadLine().Trim().ToLower();
 
-            if (namn == "avsluta" && namn.Length > 0)
+            if (namn == "avsluta" && namn.Length == 0)
             return;
                             
             namn = char.ToUpper(namn[0]) + namn.Substring(1);
@@ -74,10 +74,8 @@ namespace Kassasystemet
             Produkt nyProdukt = new Produkt(nyttId, namn, pris, enhet);
             produktregister.Add(nyttId, nyProdukt);
             Console.WriteLine($"Produkten {namn} har lagts till i  kassasystemet. ");
-            File.AppendAllLines(sokFilvag, produktregister.Values.Select(produkt => $"{produkt.Id};{produkt.Namn};{produkt.Pris};{produkt.Enhet}"));
+            File.WriteAllLines(sokFilvag, produktregister.Values.Select(produkt => $"{produkt.Id};{produkt.Namn};{produkt.Pris};{produkt.Enhet}"));
         }
-
-
 
         private static void AndraProdukt(Dictionary<string, Produkt> produktregister)
         {
@@ -92,8 +90,9 @@ namespace Kassasystemet
             if (andraProduktNamn != "")
                 produkt.AndraNamn(andraProduktNamn);
 
-            string prisAndring = Console.ReadLine().Trim();
             Console.WriteLine("Ange nya priset, eller klicka ENTER för att behålla ordinare pris");
+            string prisAndring = Console.ReadLine().Trim();
+
             if (prisAndring != "")
             {
                 if (decimal.TryParse(prisAndring, out decimal andraProduktPris) && andraProduktPris > 0)
@@ -101,7 +100,6 @@ namespace Kassasystemet
                 else
                     Console.WriteLine("Ogiltigt pris");
             }
-               
 
             Console.WriteLine($"Nuvarande enhet: {produkt.Enhet}. Ange Styck eller Kg, eller ENTER för att behålla ordinare enhet:");
             while (true)
@@ -121,7 +119,6 @@ namespace Kassasystemet
             }
             File.WriteAllLines(sokFilvag, produktregister.Values.Select(p => $"{p.Id};{p.Namn};{p.Pris};{p.Enhet}"));
         }
-
 
         private static void KampanjHantering(Dictionary<string, Produkt> produktregister, List<Kampanj> kampanjer)
         {
